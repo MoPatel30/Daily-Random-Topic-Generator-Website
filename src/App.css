@@ -47,7 +47,7 @@
 
 #date{
   font-family: "Open Sans Condensed";
-  font-size: 28px;
+  font-size: 36px;
   text-align: center;
   color: whitesmoke;
   font-weight: 800;
@@ -55,11 +55,11 @@
 
 #topic {
   border: 3px solid whitesmoke;
-  margin-top: -25px;
+  margin-top: -35px;
 }
 
 #topic-name {
-  margin-top: -15px;
+  margin-top: -30px;
 }
 
 .text-style{

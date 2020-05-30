@@ -13,6 +13,7 @@ export class App extends React.Component{
     }
     componentDidMount() {
         var that = this;
+        
         var date = new Date().getDate(); //Current Date
         var month = new Date().getMonth() + 1; //Current Month
         var year = new Date().getFullYear(); //Current Year
@@ -21,11 +22,24 @@ export class App extends React.Component{
         var min = new Date().getMinutes(); //Current Minutes
         var sec = new Date().getSeconds(); //Current Seconds
 
+        if (min < 10){
+            min = '0' + min
+        }
+        
+        if (sec < 10){
+            sec = '0' + sec
+        }
+
+        if (hours < 10){
+            hours = '0' + hours
+        }
+
         that.setState({
-          //Setting the value of the date time
-          date:
+        //Setting the value of the date time
+        date:
             month + '/' + date + '/' + year + ' ' + hours + ':' + min + ':' + sec,
         });
+        
       }
 
     render(){
