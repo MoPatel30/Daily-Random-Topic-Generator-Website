@@ -9,11 +9,11 @@ import {Randomizer} from './randomizer';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-ReactDOM.render(<TopicName />, document.getElementById('topic-name-section'))
+//ReactDOM.render(<TopicName />, document.getElementById('topic-name-section'))
 
 ReactDOM.render(<Randomizer />, document.getElementById('randomizer-button'))
 
-ReactDOM.render(<Topic />, document.getElementById('topic-section'));
+//ReactDOM.render(<Topic />, document.getElementById('topic-section'));
 
 
 

@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: url(./backgrounds/canyon.jfif);
+  background-color: #434343;
+  /*background-image: url(./backgrounds/canyon.jfif);*/
 }
 
 code {
