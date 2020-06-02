@@ -1,33 +1,48 @@
 [
 
+
     {
         "name": "Galileo Galilei",
-        "description": "Birth Date: February 15, 1564 Death Date: January 8, 1642 Place of Birth: Pisa, Italy Galileo Galilei was an Italian astronomer, physicist, engineer, mathematician, and philosopher. Galileo was the first of six children, and his father was a musician/scholar. During his teenage years, he attended the University of Pisa to study medicine, but was later sidetracked by mathematics.He ended up leaving without completing his degree. Galileo has made some remarkable contributions to science,astronomy, and mathematics: -Proved objects fall at the same speed regardless of shape/space -First developed the concept of Inertia, which helped Isaac Newton later with his findings -Galileo’s compasses were used by the military -He also discovered the rings of Saturn and the different Phases of Venus -His major improvements to the telescope allowed him to sight the four major moons of Jupiter along with various other stars. Later in his life, Galileo became an advocate for heliocentrism and would teach about it whenever he can. This brought upon enemies among the Catholic Church Leaders, which eventually led to his house arrest sentencing. Galileo spent the last 9 years of his life under house arrest, dying at the age of 77."
+        "descOne": "Birth Date: February 15, 1564 | Death Date: January 8, 1642 | Place of Birth: Pisa, Italy",
+        "descTwo": "Galileo Galilei was an Italian astronomer, physicist, engineer, mathematician, and philosopher. Galileo was the first of six children, and his father was a musician/scholar. During his teenage years, he attended the University of Pisa to study medicine, but was later sidetracked by mathematics. He ended up leaving without completing his degree.",
+        "descThree": "Galileo has made some remarkable contributions to science, astronomy, and mathematics: Proved objects fall at the same speed regardless of shape/space | First developed the concept of Inertia, which helped Isaac Newton later with his findings | Galileo’s compasses were used by the military | He also discovered the rings of Saturn and the different Phases of Venus | His major improvements to the telescope allowed him to sight the four major moons of Jupiter along with various other stars.",
+        "descFour": "Later in his life, Galileo became an advocate for heliocentrism and would teach about it whenever he can. This brought upon enemies among the Catholic Church Leaders, which eventually led to his house arrest sentencing. Galileo ended up spending the last 9 years of his life under house arrest, and passed away at the age of 77."
+   
     }, 
+
 
     {
         "name": "Blockchain",
         "description": "None"
+
     }, 
+
 
     {
         "name": "Sir Isaac Newton",
         "description": "Birth Date: January 4, 1643 Death Date: March 31, 1727 Place of Birth: Woolsthorpe,  England Isaac Newton was an English mathematician, physicist, astronomer, theologian, and author. Newton attended Trinity College to study law, but the school closed due to outbreaks of the plague. Shortly after came his newfound interest in mathematics. Fast forward to 1717, Isaac Newton holds the position as master of the Royal Mint, and he established a new ratio between gold and silver which ultimately drove silver out of monetary circulation and but Britain on a Gold Standard. Isaac Newtons has numerous remarkable contributions in many fields: -Newton’s Law of Motion was groundbreaking for the physics world. -Newton’s Universal Gravitation Law -Newton’s Principia (1687) which is considered one of the most important works in modern science as it solidified the belief of a heliocentric model and was pivotal in the beginning of the Industrial Revolution. -Newton invented Calculus (yes, blame him for all your math trauma) -Newton invented first reflecting telescope -Identified light as the source of color sensation (color is a result of objects interacting with colored-light) In March of 1727, Sir Isaac Newton experienced severe abdominal and back pain and blacked out. He later died in his sleep. Fun Fact: During his autopsy, traces of mercury were found in his hair, likely as a result of his late interest in alchemy. "
+    
     },
+
 
     {
         "name": "Diatoms",
         "description": "None"
+   
     }, 
+
 
     {
         "name": "Neptune",
         "description": "Date of discovery: September 23, 1846 Distance from Sun: 2,782,510,923 miles (roughly 2.8 billion miles) Length of year: 60,190 Earth days (165 year orbit) Neptunian Day: 16 hours Often considered “The Windiest Planet”, Neptune is a dark, barren planet with supersonic winds. Orbiting far out in our Solar System, it is the 8th and farthest planet from the Sun. Due to Neptune’s absurd distance, it takes 4 hours for sunlight to reach this icy planet. Each season lasts roughly 40 years because of this. 13 moons orbit the planet along with 6 hardly-visible rings around it. Neptune is the densest planet from all other giant planets in our solar system.  The atmospheric contents of Neptune are hydrogen, helium, and methane. Although there is no potential for life as we know it. NASA’s Voyager 2 was the only spacecraft to reach Neptune, back in 1989. 80 percent of its mass comes from “icy” material: water, methane, and ammonia. Cool Fact: Every 248 Earth years, Pluto is closer to us than Neptune for a 20-year period."
+    
     },
+
 
     {
         "name": "Mesopotamia",
         "description": "'Land between two rivers' Mesopotamia was a historical region of Western Asia situated within the Tigris - Euphrates river system, hence the name. It was around from roughly 3200 BC to 539 BC. The Sumerians and Akkadians dominated Mesopotamia from the beginning of written history (3100 BC) to its fall in 539 BC to the Achaemenid Empire. Mesopotamia was a site of the earliest developments of the Neolithic Revolution from around 10,000 BC. Some of the most important developments of human history originated from Mesopotamia: -Wheel -Planting of first cereal crops -Cursive scripts -Mathematics -Astronomy -Agriculture Sumerian was the earliest form of written language, and several Semetic languages were spoken throughout. Around 4th-millenium BC, cuneiform was invented for the Sumerian language. -Cuneiform is “wedge-shaped” writing where one would use triangle tips to sign into wet paint or clay. Math and Science was based on the sexagesimal (base 60) number system. -Source of the 60-minute hour, 24-hour day, and 360 degree circle. -Calendar was also based on seven day weeks Fun Fact: Uruk was the 1st city, surfacing around 3200 BC."
+    
     }
 
 

@@ -8,7 +8,7 @@ body {
 
   /*background-color: #E41235;*/
   background-image: url(./backgrounds/spaceANDstars.jpg);
-  background-size: cover;
+  background-size: 100% 169%;
   background-repeat: no-repeat;
 }
 
@@ -20,4 +20,8 @@ code {
 #topic-section{
   margin-left: 200px;
   margin-right: 200px;
+}
+
+#timer{
+
 }

@@ -3,8 +3,17 @@ import './App.css';
 
 
 
-
 export class App extends React.Component{
+    render(){
+        return(
+            <div>
+                <h1 id = "title"> Random Topic Generator </h1>
+            </div>
+        )
+    }
+}
+
+export class Timer extends React.Component{
     constructor(props){
         super()
         this.state = {
@@ -45,7 +54,6 @@ export class App extends React.Component{
     render(){
         return(
             <div>
-                <h1 id = "title">Random Topic Generator</h1>
                 <h4 id = "date" >{this.state.date}</h4>
                 
             </div>
@@ -85,3 +93,4 @@ export class Topic extends React.Component{
         )
     }
 }
+

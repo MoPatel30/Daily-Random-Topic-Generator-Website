@@ -13,6 +13,17 @@
   }
 }
 
+body {
+  
+  
+  
+  
+}
+
+th {
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -46,8 +57,10 @@
   border: 3px solid whitesmoke;
   margin-left: 150px;
   margin-right: 150px;
-  
+  margin-top: 35px;
 }
+
+
 
 #date{
   font-family: "Open Sans Condensed";
@@ -55,21 +68,15 @@
   text-align: center;
   color: whitesmoke;
   font-weight: 800;
-  position: absolute;
-  left: 1050px;
-  top: 0px;
-}
-
-#topic {
-  border: 3px solid whitesmoke;
-  margin-top:-35px;
-}
-
-#topic-name { 
+  position: relative;
+  top: 350px;
   
-  margin-left: 195px;
+
   
 }
+
+
+
 
 .text-style{
   color: whitesmoke;

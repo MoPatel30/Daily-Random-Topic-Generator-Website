@@ -6,24 +6,25 @@
 
 #random-button {
     position: absolute; 
-    top: -45px;
-    left: 42px;
+    top: -40px;
+    left: -100px;
 }
 
 #topic-name {
     margin-top: -75px;
     position: absolute; 
-    top: 185px;
-    left: -45px;
+    top: 190px;
+    left: -30px;
     margin-left: 195px;
     
   }
 
 #topic {
     border: 3px solid whitesmoke;
-    margin-top: -35px;
+    margin-top: -120px;
     margin-left: 150px;
     margin-right: 150px;
-    position: absolute;
+    position: relative;
+    left: 0px;
     top: 300px;
 }

@@ -37,9 +37,13 @@ export class Randomizer extends React.Component{
         let random_num_on_start = Math.floor(Math.random() * numOne)
 
       this.state = {
-          topic : TopicData[random_num_on_start].name,
-          description: TopicData[random_num_on_start].description
-
+          //topic : TopicData[random_num_on_start].name,
+          //description: TopicData[random_num_on_start].description
+            topic: TopicData[0].name,
+            descone: TopicData[0].descOne,
+            desctwo: TopicData[0].descTwo,
+            descthree: TopicData[0].descThree,
+            descfour: TopicData[0].descFour
         }
     
     }
@@ -78,8 +82,10 @@ export class Randomizer extends React.Component{
 
 
                 <div id = "topic">
-                    <p className = "text-style"> {this.state.description} </p>
-                    
+                    <p className = "text-style"> {this.state.descone} </p>
+                    <p className = "text-style"> {this.state.desctwo} </p>
+                    <p className = "text-style"> {this.state.descthree} </p>
+                    <p className = "text-style"> {this.state.descfour} </p>
 
 
                 </div>
