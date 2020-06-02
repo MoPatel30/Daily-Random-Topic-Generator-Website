@@ -4,11 +4,19 @@
     left: -150px;
 }
 
-#topic-name {
-    margin-top: -30px;
+#random-button {
     position: absolute; 
-    top: 175px;
+    top: -45px;
+    left: 42px;
+}
+
+#topic-name {
+    margin-top: -75px;
+    position: absolute; 
+    top: 185px;
     left: -45px;
+    margin-left: 195px;
+    
   }
 
 #topic {

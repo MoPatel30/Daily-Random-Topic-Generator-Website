@@ -68,11 +68,12 @@ export class Randomizer extends React.Component{
     }
   
     render(){
+        
         return(
             <div>
 
                 <div id = "topic-name">
-                <p style = {{color: "whitesmoke", fontSize: "42px", textAlign: "left", marginLeft: '200px', fontWeight: "500"}}> <em><u> Topic of the Day: {this.state.topic} </u></em></p>
+                    <p style = {{color: "whitesmoke", fontSize: "42px", textAlign: "left", fontWeight: "500"}}> <em><u>Topic of the Day: {this.state.topic}</u></em></p>
                 </div>
 
 
@@ -84,7 +85,7 @@ export class Randomizer extends React.Component{
                 </div>
 
 
-                <div>
+                <div id="random-button">
                     <button onClick={()=>this.operation()} style = {{ backgroundColor: 'whitesmoke', position: 'absolute', top: '215px', left: '1150px', fontSize: '24px', fontFamily: 'Open Sans Condensed'}}>Randomize</button>
             
                 </div>

@@ -40,8 +40,12 @@
 #title {
   font-family: "Open Sans Condensed";
   font-size: 50px;
-  text-align: center;
+  text-align: left;
+  text-indent: 10px;
   color: whitesmoke;
+  border: 3px solid whitesmoke;
+  margin-left: 150px;
+  margin-right: 150px;
   
 }
 
@@ -51,15 +55,20 @@
   text-align: center;
   color: whitesmoke;
   font-weight: 800;
+  position: absolute;
+  left: 1050px;
+  top: 0px;
 }
 
 #topic {
   border: 3px solid whitesmoke;
-  margin-top: -35px;
+  margin-top:-35px;
 }
 
-#topic-name {
-  margin-top: -30px;
+#topic-name { 
+  
+  margin-left: 195px;
+  
 }
 
 .text-style{

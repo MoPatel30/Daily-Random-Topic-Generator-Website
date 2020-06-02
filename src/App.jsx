@@ -13,7 +13,7 @@ export class App extends React.Component{
     }
     componentDidMount() {
         var that = this;
-        
+
         var date = new Date().getDate(); //Current Date
         var month = new Date().getMonth() + 1; //Current Month
         var year = new Date().getFullYear(); //Current Year
@@ -45,8 +45,8 @@ export class App extends React.Component{
     render(){
         return(
             <div>
-                <h1 id = "title"><u>Random Topic Generator</u></h1>
-                <h4 id = "date" ><u>{this.state.date}</u></h4>
+                <h1 id = "title">Random Topic Generator</h1>
+                <h4 id = "date" >{this.state.date}</h4>
                 
             </div>
         )
@@ -58,7 +58,7 @@ export class TopicName extends React.Component{
     render(){
         return(
             <div id = "topic-name">
-                <p style = {{color: "whitesmoke", fontSize: "42px", textAlign: "left", marginLeft: '200px', fontWeight: "500"}}> <em><u> Topic of the Day: Galileo Galilei </u></em></p>
+                <p style = {{color: "whitesmoke", fontSize: "42px", textAlign: "left", fontWeight: "500"}}> <em> Topic of the Day: Galileo Galilei </em></p>
             </div>
         )
     }
