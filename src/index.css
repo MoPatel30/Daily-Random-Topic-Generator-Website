@@ -8,8 +8,10 @@ body {
 
   /*background-color: #E41235;*/
   background-image: url(./backgrounds/spaceANDstars.jpg);
-  background-size: 100% 169%;
+  background-size: cover;
+  
   background-repeat: no-repeat;
+ 
 }
 
 code {
@@ -17,11 +19,24 @@ code {
     monospace;
 }
 
+
+
+
 #topic-section{
   margin-left: 200px;
   margin-right: 200px;
 }
 
 #timer{
+
+}
+
+#warning{
+  position: relative;
+  top: 270px;
+  left: 240px;
+  margin-left: 325px;
+  margin-right: 325px;
+  display: inline-block;
 
 }

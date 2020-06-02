@@ -7,7 +7,7 @@ export class App extends React.Component{
     render(){
         return(
             <div>
-                <h1 id = "title"> Random Topic Generator </h1>
+                <h1 id = "title"> Daily Topic Generator </h1>
             </div>
         )
     }
@@ -67,6 +67,16 @@ export class TopicName extends React.Component{
         return(
             <div id = "topic-name">
                 <p style = {{color: "whitesmoke", fontSize: "42px", textAlign: "left", fontWeight: "500"}}> <em> Topic of the Day: Galileo Galilei </em></p>
+            </div>
+        )
+    }
+}
+
+export class Warning extends React.Component{
+    render(){
+        return(
+            <div>
+                <p id = "laptop" >*Use Laptop for best experience*</p>
             </div>
         )
     }

@@ -63,12 +63,18 @@ export class Randomizer extends React.Component{
         let num = temp
         
         let random_num = Math.floor(Math.random() * num)
+          
         
-      this.setState ({
-           
-            topic: TopicData[random_num].name,
-            description:  TopicData[random_num].description
-        })
+            this.setState ({
+                topic: TopicData[random_num].name,
+                descone: TopicData[random_num].descOne,
+                desctwo: TopicData[random_num].descTwo,
+                descthree: TopicData[random_num].descThree,
+                descfour: TopicData[random_num].descFour
+            })
+            
+        
+        
     }
   
     render(){
@@ -78,6 +84,7 @@ export class Randomizer extends React.Component{
 
                 <div id = "topic-name">
                     <p style = {{color: "whitesmoke", fontSize: "42px", textAlign: "left", fontWeight: "500"}}> <em><u>Topic of the Day: {this.state.topic}</u></em></p>
+               
                 </div>
 
 
@@ -86,7 +93,6 @@ export class Randomizer extends React.Component{
                     <p className = "text-style"> {this.state.desctwo} </p>
                     <p className = "text-style"> {this.state.descthree} </p>
                     <p className = "text-style"> {this.state.descfour} </p>
-
 
                 </div>
 
