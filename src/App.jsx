@@ -65,8 +65,8 @@ export class Timer extends React.Component{
 export class TopicName extends React.Component{
     render(){
         return(
-            <div id = "topic-name">
-                <p style = {{color: "whitesmoke", fontSize: "42px", textAlign: "left", fontWeight: "500"}}> <em> Topic of the Day: Galileo Galilei </em></p>
+            <div>
+                <p id = "topic-name"> <em> Topic of the Day: Galileo Galilei </em></p>
             </div>
         )
     }
