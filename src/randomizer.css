@@ -2,6 +2,7 @@
     position: relative;
     top: -683px;
     left: -150px;
+    
 }
 
 #random-button {
@@ -11,9 +12,14 @@
 }
 
 #randomizer-style{
-    background-color: whitesmoke;
+    background-color: goldenrod;
+    color: whitesmoke;
     font-size: 24px;
     font-family: 'Open Sans Condensed';
+}
+
+.goldenrod{
+    color: goldenrod
 }
 
 #topic-name {
@@ -88,7 +94,8 @@
     }
 
     #randomizer-style{
-        background-color: whitesmoke;
+        background-color: goldenrod;
+        color: whitesmoke;
         font-size: 12px;
         font-family: 'Open Sans Condensed';
 

@@ -51,8 +51,7 @@ th {
 #title {
   font-family: "Open Sans Condensed";
   font-size: 50px;
-  text-align: left;
-  text-indent: 10px;
+  text-align: center;
   color: whitesmoke;
   border: 3px solid goldenrod;
   margin-left: 150px;
@@ -109,8 +108,7 @@ th {
   #title{
     font-family: "Open Sans Condensed";
     font-size: 25px;
-    text-align: left;
-    text-indent: 10px;
+    text-align: center;
     color: whitesmoke;
     border: 3px solid goldenrod;
     margin-left: 50px;

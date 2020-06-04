@@ -18,34 +18,103 @@ export class Randomizer1 extends React.Component{
 }
 
 
+var date1 = new Date().getDate(); //Current Date
+
+var currentDate = date1
+
+// checks if one day has passed. 
+function hasOneDayPassed(){
+  // get today's date. eg: "7/37/2007"
+  var date = new Date().getDate()
+
+  // if there's a date in localstorage and it's equal to the above: 
+  // inferring a day has yet to pass since both dates are equal.
+  if( currentDate === date ) 
+      return false;
+
+  // this portion of logic occurs when a day has passed
+  currentDate = date;
+  return true;
+}
+
+
+// some function which should run once a day
+function runOncePerDay(){
+    if( !hasOneDayPassed() ) return false;
+    else return changeTopic()
+    
+}
+
+
+var currentT = TopicData[0].name
+var currentDO = TopicData[0].descOne
+var currentDT = TopicData[0].descTwo
+var currentDTH = TopicData[0].descThree
+var currentDF = TopicData[0].descFour
+
+
+function changeTopic(){
+    let topic_on_start = 0
+
+    TopicData.map(function(topics,index){
+        topic_on_start = index
+        return topic_on_start
+    })
+        
+    let numOne = topic_on_start
+                
+    let random_num_on_start = Math.floor(Math.random() * numOne)
+
+    var strings = []
+
+    currentT = TopicData[random_num_on_start].name
+    currentDO = TopicData[random_num_on_start].descOne
+    currentDT = TopicData[random_num_on_start].descTwo
+    currentDTH = TopicData[random_num_on_start].descThree
+    currentDF = TopicData[random_num_on_start].descFour
+    
+    strings.push(currentT, currentDO, currentDT, currentDTH, currentDF)
+
+    return strings
+
+
+}
+
+var todayTopic = currentT
+var todayDescOne = currentDO
+var  todayDescTwo = currentDT
+var todayDescThree = currentDTH
+var todayDescFour = currentDF
+
+
 
 
 
 export class Randomizer extends React.Component{
     constructor(){
         super()
-    
-        let topic_on_start = 0
+        var update = runOncePerDay()
 
-        TopicData.map(function(topics,index){
-            topic_on_start = index
-            return topic_on_start
-        })
-    
-        let numOne = topic_on_start
-            
-        let random_num_on_start = Math.floor(Math.random() * numOne)
-
-      this.state = {
+        if(update !== false){
+            this.state = {
           //topic : TopicData[random_num_on_start].name,
           //description: TopicData[random_num_on_start].description
-            topic: TopicData[0].name,
-            descone: TopicData[0].descOne,
-            desctwo: TopicData[0].descTwo,
-            descthree: TopicData[0].descThree,
-            descfour: TopicData[0].descFour
+            topic: update[0],
+            descone: update[1],
+            desctwo: update[2],
+            descthree: update[3],
+            descfour: update[4]
+            }
         }
-    
+        else{
+            this.state = {
+            topic: todayTopic,
+            descone: todayDescOne,
+            desctwo: todayDescTwo,
+            descthree: todayDescThree,
+            descfour: todayDescFour
+            }
+        }
     }
 
     operation(){
@@ -59,7 +128,7 @@ export class Randomizer extends React.Component{
             temp = index
             return temp
         })
-
+        //length of indexes #
         let num = temp
         
         let random_num = Math.floor(Math.random() * num)
@@ -83,7 +152,7 @@ export class Randomizer extends React.Component{
             <div>
 
                 <div id = "topic-name">
-                    <p id = "topic-current-name"> <em><u>Topic of the Day: {this.state.topic}</u></em></p>
+                    <p id = "topic-current-name"> <em>Topic of the Day: <span class = "goldenrod"><u>{this.state.topic}</u></span></em></p>
                
                 </div>
 
