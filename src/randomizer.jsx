@@ -6,6 +6,7 @@ import { findRenderedComponentWithType } from 'react-dom/test-utils';
 
 import TopicData from './topics.json';
 
+
 export class Randomizer1 extends React.Component{
     render(){
         return(
@@ -18,39 +19,42 @@ export class Randomizer1 extends React.Component{
 }
 
 
-var date1 = new Date().getDate(); //Current Date
+var date1 = 3
 
-var currentDate = date1
+//window.localStorage.setItem('date', String(date1));
+ 
+//localStorage.currentDate = date1
+
 
 // checks if one day has passed. 
-function hasOneDayPassed(){
+function hasOneDayPassed(date1){
   // get today's date. eg: "7/37/2007"
-  var date = new Date().getDate()
+  var date = new Date().getDate() 
 
   // if there's a date in localstorage and it's equal to the above: 
   // inferring a day has yet to pass since both dates are equal.
-  if( currentDate === date ) 
+  if( date1 === date ) 
       return false;
 
   // this portion of logic occurs when a day has passed
-  currentDate = date;
+  date1 = date
   return true;
 }
 
 
 // some function which should run once a day
-function runOncePerDay(){
-    if( !hasOneDayPassed() ) return false;
+function runOncePerDay(date1){
+    if( !hasOneDayPassed(date1) ) return false;
     else return changeTopic()
     
 }
 
 
-var currentT = TopicData[0].name
-var currentDO = TopicData[0].descOne
-var currentDT = TopicData[0].descTwo
-var currentDTH = TopicData[0].descThree
-var currentDF = TopicData[0].descFour
+var currentT 
+var currentDO  
+var currentDT 
+var currentDTH  
+var currentDF 
 
 
 function changeTopic(){
@@ -80,12 +84,12 @@ function changeTopic(){
 
 }
 
+
 var todayTopic = currentT
 var todayDescOne = currentDO
-var  todayDescTwo = currentDT
+var todayDescTwo = currentDT
 var todayDescThree = currentDTH
 var todayDescFour = currentDF
-
 
 
 
@@ -93,7 +97,8 @@ var todayDescFour = currentDF
 export class Randomizer extends React.Component{
     constructor(){
         super()
-        var update = runOncePerDay()
+        
+        var update = runOncePerDay(date1)
 
         if(update !== false){
             this.state = {
