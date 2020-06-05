@@ -19,8 +19,15 @@ export class Randomizer1 extends React.Component{
 }
 
 
-var date1 = 3
+var date1 = 39
 
+
+
+var currentT 
+var currentDO  
+var currentDT 
+var currentDTH  
+var currentDF 
 //window.localStorage.setItem('date', String(date1));
  
 //localStorage.currentDate = date1
@@ -29,7 +36,7 @@ var date1 = 3
 // checks if one day has passed. 
 function hasOneDayPassed(date1){
   // get today's date. eg: "7/37/2007"
-  var date = new Date().getDate() 
+  var date = new Date().getMinutes() 
 
   // if there's a date in localstorage and it's equal to the above: 
   // inferring a day has yet to pass since both dates are equal.
@@ -37,6 +44,7 @@ function hasOneDayPassed(date1){
       return false;
 
   // this portion of logic occurs when a day has passed
+  
   date1 = date
   return true;
 }
@@ -45,19 +53,15 @@ function hasOneDayPassed(date1){
 // some function which should run once a day
 function runOncePerDay(date1){
     if( !hasOneDayPassed(date1) ) return false;
-    else return changeTopic()
+    else return changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF)
     
 }
 
 
-var currentT 
-var currentDO  
-var currentDT 
-var currentDTH  
-var currentDF 
 
 
-function changeTopic(){
+
+function changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF){
     let topic_on_start = 0
 
     TopicData.map(function(topics,index){
@@ -91,7 +95,9 @@ var todayDescTwo = currentDT
 var todayDescThree = currentDTH
 var todayDescFour = currentDF
 
-
+function refreshPage() {
+    window.location.reload(false);
+  }
 
 
 export class Randomizer extends React.Component{
@@ -121,6 +127,7 @@ export class Randomizer extends React.Component{
             }
         }
     }
+
 
     operation(){
      
