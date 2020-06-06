@@ -19,22 +19,54 @@ export class Randomizer1 extends React.Component{
 }
 
 
-var date1 = 39
+var date1 = 31
 
+/*
+var currentT = TopicData[0].name
+var currentDO = TopicData[0].descOne
+var currentDT = TopicData[0].descTwo
+var currentDTH = TopicData[0].descThree
+var currentDF = TopicData[0].descFour
+*/
 
+var currentT = window.localStorage.getItem('topic')
+var currentDO = window.localStorage.getItem('descone')
+var currentDT = window.localStorage.getItem('desctwo')
+var currentDTH = window.localStorage.getItem('descthree')
+var currentDF = window.localStorage.getItem('descfour')
 
-var currentT 
-var currentDO  
-var currentDT 
-var currentDTH  
-var currentDF 
+if (currentT === null){
+    changeTopic()
+}
+
+window.localStorage.setItem('topic', currentT)
+window.localStorage.setItem('descone', currentDO)
+window.localStorage.setItem('desctwo', currentDT)
+window.localStorage.setItem('descthree', currentDTH)
+window.localStorage.setItem('descfour', currentDF)
 //window.localStorage.setItem('date', String(date1));
  
+
 //localStorage.currentDate = date1
+var noUpdate = 0
+
+function checkTime(){
+    var hours = new Date().getHours()
+    var minutes = new Date().getMinutes()
+
+    if (Number(hours) === 23 && Number(minutes) === 59){
+        
+        return changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF)
+    }
+    else{
+        return noUpdate
+    } 
+}
+
 
 
 // checks if one day has passed. 
-function hasOneDayPassed(date1){
+function hasOneDayPassed(){
   // get today's date. eg: "7/37/2007"
   var date = new Date().getMinutes() 
 
@@ -51,8 +83,8 @@ function hasOneDayPassed(date1){
 
 
 // some function which should run once a day
-function runOncePerDay(date1){
-    if( !hasOneDayPassed(date1) ) return false;
+function runOncePerDay(){
+    if( !hasOneDayPassed() ) return false;
     else return changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF)
     
 }
@@ -80,6 +112,12 @@ function changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF){
     currentDT = TopicData[random_num_on_start].descTwo
     currentDTH = TopicData[random_num_on_start].descThree
     currentDF = TopicData[random_num_on_start].descFour
+
+    window.localStorage.setItem('topic', currentT)
+    window.localStorage.setItem('descone', currentDO)
+    window.localStorage.setItem('desctwo', currentDT)
+    window.localStorage.setItem('descthree', currentDTH)
+    window.localStorage.setItem('descfour', currentDF)
     
     strings.push(currentT, currentDO, currentDT, currentDTH, currentDF)
 
@@ -89,24 +127,22 @@ function changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF){
 }
 
 
-var todayTopic = currentT
-var todayDescOne = currentDO
-var todayDescTwo = currentDT
-var todayDescThree = currentDTH
-var todayDescFour = currentDF
 
-function refreshPage() {
-    window.location.reload(false);
-  }
+var todayTopic = window.localStorage.getItem('topic')
+var todayDescOne = window.localStorage.getItem('descone')
+var todayDescTwo = window.localStorage.getItem('desctwo')
+var todayDescThree = window.localStorage.getItem('descthree')
+var todayDescFour = window.localStorage.getItem('descfour')
+
 
 
 export class Randomizer extends React.Component{
     constructor(){
         super()
         
-        var update = runOncePerDay(date1)
+        var update = checkTime()
 
-        if(update !== false){
+        if( typeof update !== "number"){
             this.state = {
           //topic : TopicData[random_num_on_start].name,
           //description: TopicData[random_num_on_start].description
