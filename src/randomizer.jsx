@@ -35,7 +35,7 @@ var currentDT = window.localStorage.getItem('desctwo')
 var currentDTH = window.localStorage.getItem('descthree')
 var currentDF = window.localStorage.getItem('descfour')
 
-if (currentT === null){
+if (String(currentT) === null){
     changeTopic()
 }
 
