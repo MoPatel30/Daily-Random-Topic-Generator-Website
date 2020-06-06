@@ -14,12 +14,11 @@ body {
  
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
 
 
 #topic-section{
@@ -27,9 +26,6 @@ code {
   margin-right: 200px;
 }
 
-#timer{
-
-}
 
 #warning{
   position: relative;
@@ -40,6 +36,7 @@ code {
   display: inline-block;
 
 }
+
 
 
 @media only screen and (max-width: 414px) {

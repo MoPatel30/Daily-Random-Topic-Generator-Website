@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { App, Timer, Topic, TopicName, Warning } from './App';
+import { App, Timer} from './App';
 import * as serviceWorker from './serviceWorker';
 import {Randomizer} from './randomizer';
 
@@ -9,16 +9,13 @@ import {Randomizer} from './randomizer';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-//ReactDOM.render(<TopicName />, document.getElementById('topic-name-section'))
 
 ReactDOM.render(<Randomizer />, document.getElementById('randomizer-button'))
-
-//ReactDOM.render(<Topic />, document.getElementById('topic-section'));
 
 
 ReactDOM.render(<Timer />, document.getElementById('timer'))
 
-//ReactDOM.render(<Warning />, document.getElementById('warning'))
+
 
 
 

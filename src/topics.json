@@ -7,7 +7,6 @@
         "descTwo": "Galileo Galilei was an Italian astronomer, physicist, engineer, mathematician, and philosopher. Galileo was the first of six children, and his father was a musician/scholar. During his teenage years, he attended the University of Pisa to study medicine, but was later sidetracked by mathematics. He ended up leaving without completing his degree.",
         "descThree": "Galileo has made some remarkable contributions to science, astronomy, and mathematics: Proved objects fall at the same speed regardless of shape/space. First developed the concept of Inertia, which helped Isaac Newton later with his findings. Galileo’s compasses were used by the military. He also discovered the rings of Saturn and the different Phases of Venus. His major improvements to the telescope allowed him to sight the four major moons of Jupiter along with various other stars.",
         "descFour": "Later in his life, Galileo became an advocate for heliocentrism and would teach about it whenever he can. This brought upon enemies among the Catholic Church Leaders, which eventually led to his house arrest sentencing. Galileo ended up spending the last 9 years of his life under house arrest, and passed away at the age of 77."
-   
     }, 
 
 
@@ -17,8 +16,6 @@
         "descTwo": "Paragraph 2",
         "descThree": "Paragraph 3",
         "descFour": "Paragraph 4"
-
-
     }, 
 
 
@@ -28,8 +25,6 @@
         "descTwo": "Paragraph 2",
         "descThree": "Paragraph 3",
         "descFour": "Paragraph 4"
-
-
     },
 
 
@@ -38,8 +33,7 @@
         "descOne": "Paragraph 1",
         "descTwo": "Paragraph 2",
         "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
-        
+        "descFour": "Paragraph 4"        
     }, 
 
 
@@ -58,9 +52,7 @@
         "descTwo": "Paragraph 2",
         "descThree": "Paragraph 3",
         "descFour": "Paragraph 4"
-
     }
-
 
     
 ]

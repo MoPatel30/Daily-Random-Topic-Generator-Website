@@ -2,14 +2,15 @@
     position: relative;
     top: -683px;
     left: -150px;
-    
 }
+
 
 #random-button {
     position: absolute;
     top: 176px;
     left: 1150px;
 }
+
 
 #randomizer-style{
     background-color: goldenrod;
@@ -18,18 +19,20 @@
     font-family: 'Open Sans Condensed';
 }
 
+
 .goldenrod{
     color: goldenrod
 }
+
 
 #topic-name {
     margin-top: -75px;
     position: absolute; 
     top: 190px;
     left: -30px;
-    margin-left: 195px;
-    
-  }
+    margin-left: 195px; 
+}
+
 
 #topic {
     border: 3px solid goldenrod;
@@ -41,12 +44,15 @@
     top: 300px;
 }
 
+
 #topic-current-name{
     color: whitesmoke; 
     font-size: 42px; 
     text-align: "left";
     font-weight: "500";
 }
+
+
 
 @media only screen and (max-width: 414px){  
     #topic-name {
@@ -89,8 +95,7 @@
     #random-button{
         position: absolute;
         top: 150px;
-        left: 160px;
-        
+        left: 160px;     
     }
 
     #randomizer-style{
@@ -98,7 +103,6 @@
         color: whitesmoke;
         font-size: 12px;
         font-family: 'Open Sans Condensed';
-
     }
 
 }

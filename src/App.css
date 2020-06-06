@@ -2,10 +2,12 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,16 +15,6 @@
   }
 }
 
-body {
-  
-  
-  
-  
-}
-
-th {
-
-}
 
 .App-header {
   background-color: #282c34;
@@ -35,9 +27,11 @@ th {
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
@@ -47,6 +41,7 @@ th {
     transform: rotate(360deg);
   }
 }
+
 
 #title {
   font-family: "Open Sans Condensed";
@@ -60,7 +55,6 @@ th {
 }
 
 
-
 #date{
   font-family: "Open Sans Condensed";
   font-size: 36px;
@@ -68,20 +62,15 @@ th {
   color: whitesmoke;
   font-weight: 800;
   position: relative;
-  top: 350px;
-  
-  
-
-  
+  top: 350px;  
 }
+
 
 #laptop{
   color: whitesmoke;
   font-size: 24px;
   text-align: center;
   text-indent: 10px;
- 
-
 }
 
 
@@ -114,7 +103,6 @@ th {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 25px;
-
   }
 
   #date{
@@ -125,8 +113,6 @@ th {
     font-weight: 500;
     position: relative;
     top: 100px;
-  
-
   }
 
 }
