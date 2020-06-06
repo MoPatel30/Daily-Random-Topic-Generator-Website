@@ -13,15 +13,17 @@ export class App extends React.Component{
     }
 }
 
+
 export class Timer extends React.Component{
     constructor(props){
         super()
         this.state = {
-            date: ''
+            time: setInterval( () => { new Date().toLocaleString()}, 1000 )
+        
         }
     }
     componentDidMount() {
-        var that = this;
+       /* var that = this;
 
         var date = new Date().getDate(); //Current Date
         var month = new Date().getMonth() + 1; //Current Month
@@ -42,19 +44,22 @@ export class Timer extends React.Component{
         if (hours < 10){
             hours = '0' + hours
         }
-
-        that.setState({
-        //Setting the value of the date time
-        date:
-            month + '/' + date + '/' + year + ' ' + hours + ':' + min + ':' + sec,
-        });
+*/
+           
+        setInterval( () => {
+            //window.localStorage.setItem("time", new Date().toLocaleString())
+        this.setState({
+            time : new Date().toLocaleString(),
+        })
+        },1)
+        
         
       }
 
     render(){
         return(
             <div>
-                <h4 id = "date" >{this.state.date}</h4>
+                <h4 id = "date" >{this.state.time}</h4>
                 
             </div>
         )

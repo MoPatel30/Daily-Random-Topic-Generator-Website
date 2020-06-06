@@ -1,5 +1,6 @@
 import React from 'react';
 import './randomizer.css';
+
 import { Route, NavLink, HashRouter } from "react-router-dom";
 import {Topic} from './App';
 import { findRenderedComponentWithType } from 'react-dom/test-utils';
@@ -47,14 +48,27 @@ window.localStorage.setItem('descfour', currentDF)
 //window.localStorage.setItem('date', String(date1));
  
 
+var currentDate = window.localStorage.getItem('date')
+window.localStorage.setItem('date', String(4))
 //localStorage.currentDate = date1
 var noUpdate = 0
 
+function checkDate(){
+    var newDate = new Date().getDate()
+
+    if (newDate > window.localStorage.getItem("date")){
+        window.localStorage.setItem("date", newDate)
+        return changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF)
+    }
+    else{
+        return noUpdate
+    }
+}
 function checkTime(){
     var hours = new Date().getHours()
     var minutes = new Date().getMinutes()
 
-    if (Number(hours) === 23 && Number(minutes) === 59){
+    if (Number(hours) === 15 && Number(minutes) === 5){
         
         return changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF)
     }
@@ -100,7 +114,7 @@ function changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF){
         topic_on_start = index
         return topic_on_start
     })
-        
+    
     let numOne = topic_on_start
                 
     let random_num_on_start = Math.floor(Math.random() * numOne)
@@ -136,25 +150,43 @@ var todayDescFour = window.localStorage.getItem('descfour')
 
 
 
+
 export class Randomizer extends React.Component{
     constructor(){
         super()
         
+
+       // window.location.reload(false);
+    
         var update = checkTime()
 
-        if( typeof update !== "number"){
+        this.state = {
+            curTime: setInterval( () => { new Date().toLocaleString()},1000 ),
+            topic: todayTopic,
+            descone: todayDescOne,
+            desctwo: todayDescTwo,
+            descthree: todayDescThree,
+            descfour: todayDescFour
+        }
+
+
+        if (typeof update !== "number"){
             this.state = {
           //topic : TopicData[random_num_on_start].name,
           //description: TopicData[random_num_on_start].description
+            curTime: setInterval( () => { new Date().toLocaleString()}, 1000 ),
             topic: update[0],
             descone: update[1],
             desctwo: update[2],
             descthree: update[3],
-            descfour: update[4]
+            descfour: update[4],
+        
+
             }
         }
         else{
             this.state = {
+            curTime: setInterval( () => { new Date().toLocaleString()}, 1000 ),
             topic: todayTopic,
             descone: todayDescOne,
             desctwo: todayDescTwo,
@@ -162,7 +194,62 @@ export class Randomizer extends React.Component{
             descfour: todayDescFour
             }
         }
+
+       
     }
+    /*string: 6/6/2020 3:10:34 PM
+    shouldComponentUpdate(){
+        var str = String(this.state.curTime)
+        var temp = str.split(" ")
+        console.log(temp)
+        var temp2 = temp[1].split(":")
+        if (temp2[0] === "23" && temp2[1] === "59" && temp2[2] === "1"){
+
+            return true
+        }
+        else{
+            return false
+        }
+    }*/
+   
+    componentDidMount() {
+        setInterval( () => {
+            window.localStorage.setItem("time", new Date().toLocaleString())
+          this.setState({
+            curTime : new Date().toLocaleString(),
+          })
+        },1000)
+
+
+        var now = window.localStorage.getItem("nowDate")
+        var newDate = new Date().getMinutes()
+
+        if(String(now) === "null"){
+            now = window.localStorage.setItem("nowDate", newDate)
+        }
+
+        if(now < newDate){
+            now = newDate
+            window.localStorage.setItem("nowDate", newDate)
+            
+            changeTopic()
+            window.location.reload(false);
+        }
+       
+      /*  var str =  window.localStorage.getItem("time")
+        var str1 = str.split("/")
+        var temp = str1
+        var testMins = str1[2].split(":") */
+
+      
+        /*var temp2 = temp[1].split(":")
+        this.setState({
+            test: temp[0],
+            test1: temp[1],
+            test2: testMins[1]
+        })*/
+      }
+   
 
 
     operation(){
@@ -210,7 +297,7 @@ export class Randomizer extends React.Component{
                     <p className = "text-style"> {this.state.desctwo} </p>
                     <p className = "text-style"> {this.state.descthree} </p>
                     <p className = "text-style"> {this.state.descfour} </p>
-
+                
                 </div>
 
 
