@@ -4,6 +4,7 @@ import TopicData from './topics.json';
 
 
 
+
 export class Randomizer1 extends React.Component{
     render(){
         return(
@@ -16,7 +17,10 @@ export class Randomizer1 extends React.Component{
 }
 
 
-var date1 = 31
+
+
+
+//var date1 = 31
 
 /*
 var currentT = TopicData[0].name
@@ -26,24 +30,45 @@ var currentDTH = TopicData[0].descThree
 var currentDF = TopicData[0].descFour
 */
 
+
+    // Yippee! We can use localStorage awesomeness
 var currentT = window.localStorage.getItem('topic')
 var currentDO = window.localStorage.getItem('descone')
 var currentDT = window.localStorage.getItem('desctwo')
 var currentDTH = window.localStorage.getItem('descthree')
 var currentDF = window.localStorage.getItem('descfour')
 
-if (String(currentT) === null){
-    changeTopic()
-}
 
-window.localStorage.setItem('topic', currentT)
-window.localStorage.setItem('descone', currentDO)
-window.localStorage.setItem('desctwo', currentDT)
-window.localStorage.setItem('descthree', currentDTH)
-window.localStorage.setItem('descfour', currentDF)
+
+/*
+if (String(currentT) === "null"){
+    var test = changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF)
+    
+    window.localStorage.setItem('topic', test[0])
+    window.localStorage.setItem('descone', test[1])
+    window.localStorage.setItem('desctwo', test[2])
+    window.localStorage.setItem('descthree', test[3])
+    window.localStorage.setItem('descfour', test[4])
+}
+else{*/
+var test1 = [currentT, currentDO, currentDT, currentDTH, currentDF]
+
+
+    // Yippee! We can use localStorage awesomeness
+window.localStorage.setItem('topic', test1[0])
+window.localStorage.setItem('descone', test1[1])
+window.localStorage.setItem('desctwo', test1[2])
+window.localStorage.setItem('descthree', test1[3])
+window.localStorage.setItem('descfour', test1[4])
+
+
+    
+//}
+
+
 //window.localStorage.setItem('date', String(date1));
  
-
+/*
 var currentDate = window.localStorage.getItem('date')
 window.localStorage.setItem('date', String(4))
 //localStorage.currentDate = date1
@@ -71,11 +96,11 @@ function checkTime(){
     else{
         return noUpdate
     } 
-}
+}*/
 
 
 
-// checks if one day has passed. 
+/* checks if one day has passed. 
 function hasOneDayPassed(){
   // get today's date. eg: "7/37/2007"
   var date = new Date().getMinutes() 
@@ -92,13 +117,13 @@ function hasOneDayPassed(){
 }
 
 
-// some function which should run once a day
+ some function which should run once a day
 function runOncePerDay(){
     if( !hasOneDayPassed() ) return false;
     else return changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF)
     
 }
-
+*/
 
 
 
@@ -111,7 +136,7 @@ function changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF){
         return topic_on_start
     })
     
-    let numOne = topic_on_start
+    let numOne = topic_on_start + 1
                 
     let random_num_on_start = Math.floor(Math.random() * numOne)
 
@@ -131,12 +156,12 @@ function changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF){
     
     strings.push(currentT, currentDO, currentDT, currentDTH, currentDF)
 
-    return strings
+    return 
 
 
 }
 
-
+    // Yippee! We can use localStorage awesomeness
 
 var todayTopic = window.localStorage.getItem('topic')
 var todayDescOne = window.localStorage.getItem('descone')
@@ -146,13 +171,15 @@ var todayDescFour = window.localStorage.getItem('descfour')
 
 
 
+
+
 export class Randomizer extends React.Component{
     constructor(){
         super()
         
        // window.location.reload(false);
     
-        var update = checkTime()
+        //var update = checkTime()
 
         this.state = {
             curTime: setInterval( () => { new Date().toLocaleString()},1000 ),
@@ -163,7 +190,7 @@ export class Randomizer extends React.Component{
             descfour: todayDescFour
         }
 
-
+/*
         if (typeof update !== "number"){
             this.state = {
           //topic : TopicData[random_num_on_start].name,
@@ -186,7 +213,7 @@ export class Randomizer extends React.Component{
             descthree: todayDescThree,
             descfour: todayDescFour
             }
-        }
+        }*/
        
     }
 
@@ -216,19 +243,20 @@ export class Randomizer extends React.Component{
           })
         },1000)
 
-
         var now = window.localStorage.getItem("nowDate")
-        var newDate = new Date().getDate()
+        
+
+        var newDate = new Date().getMinutes()
 
         if(String(now) === "null"){
             now = window.localStorage.setItem("nowDate", newDate)
         }
 
         if(now < newDate){
-            now = newDate
+        
             window.localStorage.setItem("nowDate", newDate)
             
-            changeTopic()
+            changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF)
             window.location.reload(false);
         }
        
@@ -299,5 +327,4 @@ export class Randomizer extends React.Component{
     }
 
 }
-  
   
