@@ -17,7 +17,7 @@ export class Randomizer1 extends React.Component{
 }
 
 
-
+//using Local storage to be able to access the same topic for a 24hr period
 var currentT = window.localStorage.getItem('topic')
 var currentDO = window.localStorage.getItem('descone')
 var currentDT = window.localStorage.getItem('desctwo')
@@ -38,7 +38,7 @@ window.localStorage.setItem('descfour', test1[4])
 
 
 
-
+//function that changes the topic. is called once a day.
 function changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF){
     let topic_on_start = 0
 
@@ -73,7 +73,7 @@ function changeTopic(currentT, currentDO, currentDT, currentDTH, currentDF){
 }
 
    
-
+//grabbing from local storage to use in rendering process
 var todayTopic = window.localStorage.getItem('topic')
 var todayDescOne = window.localStorage.getItem('descone')
 var todayDescTwo = window.localStorage.getItem('desctwo')
@@ -100,7 +100,7 @@ export class Randomizer extends React.Component{
 
          
 
-    // this allows it to change topic after a new day change
+    // this allows it to change topics after a new day change
     componentDidMount() {
         setInterval( () => {
             window.localStorage.setItem("time", new Date().toLocaleString())
@@ -128,10 +128,9 @@ export class Randomizer extends React.Component{
        
       }  
 
-
+    // this function is the onClick function the button calls that randomizes the topic displaye on screen
     operation(){
-       // let currentTopic = TopicData.get(0).name
-       // let currentDescription = TopicData.get(0).description
+       
         let temp = 0
 
        TopicData.map(function(topics,index){

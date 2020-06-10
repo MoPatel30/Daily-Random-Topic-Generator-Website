@@ -24,7 +24,7 @@ export class App extends React.Component{
 }
 
 
-
+//Gets the the time and date and updates it constantly in browser. No refresh needed.
 export class Timer extends React.Component{
     constructor(props){
         super()
