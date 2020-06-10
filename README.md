@@ -18,7 +18,7 @@ I'm learning on this journey too and I hope you guys stick around to learn with 
 
 With that, I hope you enjoy the content provided and if you have any questions or recommendations, you can email me at the handle below.
 
-![Main Page](src/backgrounds/dtg-main-page.jpeg)
+![Main Page](src/backgrounds/dtg-main-page.JPG)
 
 ## Creator
 
