@@ -42,6 +42,20 @@
   }
 }
 
+#warning{
+  font-family: "Open Sans Condensed";
+  font-size: 24px;
+  text-align: center;
+  color: whitesmoke;
+  width: 800px;
+
+  position: absolute;
+  left: -150px;
+  top: -10px;
+
+
+}
+
 
 #title {
   font-family: "Open Sans Condensed";
@@ -86,12 +100,23 @@
 
 
 
+
+
 @media only screen and (max-width: 414px) {
   #topic-name{
     color: gold;
     font-size: 24px;
     text-align: left; 
     font-weight: 500;
+  }
+
+  #warning{
+    font-size: 10px;
+    position: absolute;
+    left: -284px;
+    top: 00px;
+    width: 250px;
+    
   }
 
   #title{
@@ -113,6 +138,10 @@
     font-weight: 500;
     position: relative;
     top: 100px;
+    
+  }
+  #date-box{
+    margin-bottom: 75px;
   }
 
 }

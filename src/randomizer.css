@@ -54,6 +54,8 @@
 
 
 
+
+
 @media only screen and (max-width: 414px){  
     #topic-name {
         margin-top: -150px;
@@ -107,6 +109,4 @@
 
 }
 
-
-/* make a seperate style sheet and link to index.html. it'll be for mobile devices, namely the X*/
 

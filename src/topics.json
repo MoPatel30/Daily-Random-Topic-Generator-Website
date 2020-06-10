@@ -12,92 +12,84 @@
 
     {
         "name": "Blockchain",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
+        "descOne": "Blockchain is a distributed ledger that maintains a growing list of ordered records called blocks. A block is simply a record of a new transaction that is added to the blockchain if it has been verified.",
+        "descTwo": "Blockchain technology has five key properties: Decentralized meaning there is no single authority in control of the blockchain, public meaning anyone can access the blockchain, secure meaning no single authority could exploit the blockchain, consensus-model meaning transactions are legitimized by all participants of the blockchain, instantaneous meaning all transactions on the blockchain are carried out rather quickly relative to traditional systems.",
+        "descThree": "Blockchain was invented by a person (or group of people) using the name Satoshi Nakamoto in 2008 to serve as the public transaction ledger of the cryptocurrency bitcoin. The identity of Satoshi Nakamoto is unknown. The block time is the average time it takes for the network to generate one extra block in the blockchain. The block time for Ethereum is roughly 15 seconds, while for bitcoin it is on average 10 minutes.",
+        "descFour": "Blockchain security methods include the use of public-key cryptography. A public key (a long, random-looking string of numbers) is an address on the blockchain, and value tokens (cryptocurrencies) sent across the network are recorded as belonging to that address. A private key is like a password that gives its owner access to their digital assets and to other features of the blockchain."
     }, 
 
 
     {
         "name": "Isaac Newton",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
+        "descOne": "Birth Date: January 4, 1643 | Death Date: March 31, 1727 | Place of Birth: Woolsthorpe, England ",
+        "descTwo": "Sir Isaac Newton was an English mathematician, physicist, astronomer, theologian, and author. Newton attended Trinity College to study law, but the school closed due to outbreaks of the plague. Shortly after came his newfound interest in mathematics. Fast forward to 1717, Isaac Newton held the position as master of the Royal Mint, and he established a new ratio between gold and silver which ultimately drove silver out of monetary circulation and put Britain on a Gold Standard.",
+        "descThree": "Isaac Newton has numerous remarkable contributions in many fields: Newton’s Law of Motion was groundbreaking for the physics world, Newton’s Universal Gravitation Law, and Newton’s Principia (1687) which is considered one of the most important works in modern science as it solidified the belief of a heliocentric model and was pivotal in the beginning of the Industrial Revolution. Newton also invented Calculus (yes, blame him for all your math trauma), and he invented the first reflecting telescope. Newton also identified light as the source of color sensation (color is a result of objects interacting with colored-light).",
+        "descFour": "In March of 1727, Sir Isaac Newton experienced severe abdominal and back pain and blacked out. He later died in his sleep. Fun Fact: During his autopsy, traces of mercury were found in his hair, likely as a result of his late interest in alchemy. "
     },
 
 
     {
         "name": "Diatoms",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"        
+        "descOne": "Diatoms are a group of microalgae that are found in the oceans, waterways and soils of the world. They play a vital role in Earth’s biomass, generating about 20 to 50 percent of the oxygen produced on the planet each year.",
+        "descTwo": "The entire Amazon basin is fertilized annually by 27 million tons of diatom shell dust transported by transatlantic winds from the African Sahara. (Yes, the Sahara Desert plays a vital role in maintaining the Amazon basin and keeping it thriving.)",
+        "descThree": "Diatoms are unicellular: they occur either as solitary cells or in colonies, which can take the shape of ribbons, fans, zigzags, or stars. Individual cells range in size from 2 to 200 micrometers. Diatoms are mainly photosynthetic. With enough nutrients and sunlight, living diatoms can double approximately every 24 hours via asexual multiple fission. The maximum life span of a single diatom is roughly six days. ",
+        "descFour": "Cool Fact: The shells of dead diatoms can reach as much as a half-mile (800 m) deep on the ocean floor."        
     }, 
 
 
     {
         "name": "Neptune",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
+        "descOne": "Date of discovery: September 23, 1846 | Distance from Sun: 2,782,510,923 miles (roughly 2.8 billion miles) | Length of year: 60,190 Earth days (165 year orbit) | Neptunian Day: 16 hours ",
+        "descTwo": "Often considered “The Windiest Planet”, Neptune is a dark, barren planet with supersonic winds. Orbiting far out in our Solar System, it is the 8th and farthest planet from the Sun. Due to Neptune’s absurd distance, it takes 4 hours for sunlight to reach the icy planet. Each season lasts roughly 40 years because of this.13 moons orbit the planet along with 6 hardly-visible rings around it. ",
+        "descThree": "Neptune is the densest planet from all other giant planets in our solar system. The atmospheric contents of Neptune are hydrogen, helium, and methane. Although there is no potential for life as we know it. NASA’s Voyager 2 was the only spacecraft to reach Neptune, back in 1989. 80 percent of its mass comes from “icy” material: water, methane, and ammonia.",
+        "descFour": "Cool Fact: Every 248 Earth years, Pluto is closer to us than Neptune for a 20-year period. Neptune is named for the Roman God of the sea!"
     },
 
 
     {
         "name": "Mesopotamia",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
+        "descOne": "“Land between two rivers'' Mesopotamia was a historical region of Western Asia situated within the Tigris - Euphrates river system, hence the name. It was around from roughly 3200 BC to 539 BC.",
+        "descTwo": "The Sumerians and Akkadians dominated Mesopotamia from the beginning of written history (3100 BC) to its fall in 539 BC to the Achaemenid Empire. Mesopotamia was a site of the earliest developments of the Neolithic Revolution from around 10,000 BC. Some of the most important developments of human history originated from Mesopotamia: Wheel, planting of first cereal crops, cursive scripts, mathematics, astronomy, agriculture.",
+        "descThree": "Sumerian was the earliest form of written language, and several Semetic languages were spoken throughout. Around 4th-millenium BC, cuneiform was invented for the Sumerian language. Cuneiform is “wedge-shaped” writing where one would use triangle tips to sign into wet paint or clay.",
+        "descFour": "Math and Science was based on the sexagesimal (base 60) number system. This is the source of the 60-minute hour, 24-hour day, and 360 degree circle. The calendar was also based on seven day weeks. Fun Fact: Uruk was the 1st city, surfacing around 3200 BC!"
     },
 
 
     {
         "name": "Elon Musk",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
+        "descOne": "Elon Musk (born June 28, 1971) is an engineer, industrial designer, technology entrepreneur and philanthropist. He is a citizen of South Africa, Canada, and the United States. ",
+        "descTwo": "He is the founder, CEO and chief engineer/designer of SpaceX, early investor, CEO and product architect of Tesla, Inc, founder of The Boring Company, co-founder of Neuralink, and co-founder and initial co-chairman of OpenAI. (He’s a very busy guy). In December 2016, he was ranked 21st on the Forbes list of The World's Most Powerful People. As of June 2020, his net worth was estimated at $38.8 billion and he is listed by Forbes as the 31st-richest person in the world.",
+        "descThree": "Musk is very ambitious and his goals include reducing global warming through sustainable energy production and consumption and lessening the risk of human extinction by establishing a human colony on Mars.",
+        "descFour": "Cool Fact: In 1995, Musk was accepted to a PhD program in energy physics/materials science at Stanford, but left two days later to pursue opportunities in the internet boom, where he went on to launch his first company, Zip2 Corporation. Musk was also a founder of PayPal, and In October 2002 PayPal was acquired by eBay for $1.5 billion in stock. Musk received $165 million."
     },
 
 
     {
-        "name": "Paypal",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
+        "name": "Peter Thiel",
+        "descOne": "Peter Andreas Thiel (born October 11, 1967) is a German-American billionaire entrepreneur and venture capitalist. He is a co-founder of PayPal, Palantir Technologies and Founders Fund. He studied philosophy at Stanford University, graduating with a B.A. in 1989. He then earned his J.D. from Stanford Law School in 1992.",
+        "descTwo": "He co-founded PayPal in 1999, serving as chief executive officer until its sale to eBay in 2002 for $1.5 billion. Thiel became Facebook's first outside investor when he acquired a 10.2% stake for $500,000 in August 2004. He sold the majority of his shares in Facebook for over $1 billion in 2012, but remains on the board of directors. ",
+        "descThree": "He co-founded Valar Ventures in 2010, co-founded Mithril Capital, serving as investment committee chair, in 2012, and served as a partner at YCombinator from 2015 to 2017. As of 2019, Thiel’s net worth ranges around 2.5 billion USD.",
+        "descFour": "Fun Fact: Thiel excelled in mathematics, and scored first in a California-wide mathematics competition while attending Bowditch Middle School in Foster City."
     },
 
 
     {
         "name": "Accredited Investor",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
+        "descOne": "An accredited or sophisticated investor is an investor with a special status under financial regulation laws. Generally, accredited investors include high-net-worth individuals, banks, financial institutions and other large corporations, who have access to complex and higher-risk investments such as venture capital, hedge funds and angel investments.",
+        "descTwo": "In the United States, to be considered an accredited investor, one must have a net worth of at least $1,000,000, without counting the value of one's primary residence or have income at least $200,000 each year for the last two years (or $300,000 combined income if married) and have the expectation to make the same amount in future years.",
+        "descThree": "A company or organization is an accredited investor if it holds assets exceeding $5 million. Also, if an entity consists of equity owners who are accredited investors, the entity itself is an accredited investor. ",
+        "descFour": "Many believe the requirements to become an accredited investor are too high and that they put the lower and middle class at a disadvantage as they are excluded from possible high-yielding investments. "
     },
 
 
     {
         "name": "Oxygen",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
-    },
-
-
-    {
-        "name": "The Gold Standard",
-        "descOne": "Paragraph 1",
-        "descTwo": "Paragraph 2",
-        "descThree": "Paragraph 3",
-        "descFour": "Paragraph 4"
+        "descOne": "Oxygen is the chemical element with the symbol O and atomic number 8. After hydrogen and helium, oxygen is the third-most abundant element in the universe by mass. Diatomic oxygen gas constitutes 20.95% of the Earth's atmosphere. ",
+        "descTwo": "It is a member of the chalcogen group in the periodic table, a highly reactive nonmetal, and an oxidizing agent that readily forms oxides with most elements as well as with other compounds.",
+        "descThree": "Most of the mass of living organisms is oxygen as a component of water, the major constituent of lifeforms. Oxygen is continuously replenished in Earth's atmosphere by photosynthesis, which uses the energy of sunlight to produce oxygen from water and carbon dioxide.",
+        "descFour": "Cool Fact: The boiling point of oxygen is -297.3 F and the freezing point of oxygen is -361.8 F. Liquid and solid oxygen are pale blue. Oxygen gas is colorless, odorless, and tasteless."
     }
+
 
     
 ]

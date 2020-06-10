@@ -3,6 +3,16 @@ import './App.css';
 
 
 
+export class Warning extends React.Component{
+    render(){
+        return(
+            <div id = "warning">
+                <p>Warning: Turn off private browsing to avoid daily topic reset</p>
+            </div>
+        )
+    }
+}
+
 export class App extends React.Component{
     render(){
         return(
@@ -35,7 +45,7 @@ export class Timer extends React.Component{
     
     render(){
         return(
-            <div>
+            <div id = 'date-box'>
                 <h4 id = "date" >{this.state.time}</h4>
                 
             </div>
