@@ -88,8 +88,25 @@
         "descTwo": "It is a member of the chalcogen group in the periodic table, a highly reactive nonmetal, and an oxidizing agent that readily forms oxides with most elements as well as with other compounds.",
         "descThree": "Most of the mass of living organisms is oxygen as a component of water, the major constituent of lifeforms. Oxygen is continuously replenished in Earth's atmosphere by photosynthesis, which uses the energy of sunlight to produce oxygen from water and carbon dioxide.",
         "descFour": "Cool Fact: The boiling point of oxygen is -297.3 F and the freezing point of oxygen is -361.8 F. Liquid and solid oxygen are pale blue. Oxygen gas is colorless, odorless, and tasteless."
-    }
+    },
 
+
+    {
+        "name": "Mount Everest",
+        "descOne": "Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point.",
+        "descTwo": "The current official elevation of 8,848 m (29,029 ft)! This number was denoted after years of calculations based on observations made by the Great Trigonometric Survey. GTS was a project aimed at measuring all of the Indian subcontinent to scientific precision. ",
+        "descThree": "Because Mount Everest is the highest mountain in the world, it has attracted considerable attention and climbing attempts. It may have been climbed in 1924, although this has never been confirmed, as both of the men making the attempt failed to return from the mountain. It has become a life goal of many to ascend Everest, and movies have been made to depict the impossible adventure that awaits. As of early 2019, roughly 5,300 people have successfully climbed Everest.",
+        "descFour": "Not-so-fun Fact: As of 2019, over 300 people have died on Everest, many of whose bodies remain on the mountain."
+    },
+
+
+    {
+        "name": "Social Psychology",
+        "descOne": "Social psychology is the scientific study of how the thoughts, feelings, and behaviors of individuals are influenced by the actual, imagined, and implied presence of others. Some very notable experiments include the Milgram Experiment and the Zimbardos’s Stanford Prison Experiment.",
+        "descTwo": "In social psychology, attitude is defined as learned, global evaluations of a person, object, place, or issue that influence thought and action. Simply put, attitudes are basic expressions of approval and disapproval, favorability and unfavorability.",
+        "descThree": "Social psychology also focuses on persuasion. Persuasion is an active method of influence that attempts to guide people toward the adoption of an attitude, idea, or behavior by rational or emotive means. Persuasion relies on 'appeals' rather than strong pressure or coercion.",
+        "descFour": "Social cognition is a growing area of social psychology that studies how people perceive, think about, and remember information about others. In contrast, the ‘self-concept’ is a term referring to the whole sum of beliefs that people have about themselves. People can have more than one ‘self’, and act depending on which ‘self’ they are currently ‘performing’."
+    }
 
     
 ]
