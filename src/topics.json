@@ -106,7 +106,26 @@
         "descTwo": "In social psychology, attitude is defined as learned, global evaluations of a person, object, place, or issue that influence thought and action. Simply put, attitudes are basic expressions of approval and disapproval, favorability and unfavorability.",
         "descThree": "Social psychology also focuses on persuasion. Persuasion is an active method of influence that attempts to guide people toward the adoption of an attitude, idea, or behavior by rational or emotive means. Persuasion relies on 'appeals' rather than strong pressure or coercion.",
         "descFour": "Social cognition is a growing area of social psychology that studies how people perceive, think about, and remember information about others. In contrast, the ‘self-concept’ is a term referring to the whole sum of beliefs that people have about themselves. People can have more than one ‘self’, and act depending on which ‘self’ they are currently ‘performing’."
+    },
+    
+
+    {
+        "name": "President Theodore Roosevelt",
+        "descOne": "Teddy Roosevelt was an American statesman, politician, conservationist, naturalist, and writer who served as the 26th president of the United States from 1901 to 1909. He also served as the 25th vice president from March to September 1901.",
+        "descTwo": "Roosevelt was a man of the people. He was the leader of the progressive movement, and he championed his 'Square Deal' domestic policies, promising the average citizen fairness, breaking of trusts, regulation of railroads, and pure food and drugs. He made conservation a top priority and established many new national parks, forests, and monuments intended to preserve the nation's natural resources. He also focused heavily on Central America where he began constructing the Panama Canal. He also heavily expanded the Navy and sent the Great White Fleet on a world tour to project the United States' naval power around the globe. ",
+        "descThree": "Roosevelt was also a diplomat, and his successful efforts to broker the end of the Russo-Japanese War won him the 1906 Nobel Peace Prize. After disagreeing with President Taft’s policies, his successor, TR tried to run again in 1912 under the “Bull Moose” party, which had an increased focus on progressive reform. He ended up losing to Woodrow Wilson. TR also considered running for president again in 1920, but his health continued to deteriorate and he died in 1919.",
+        "descFour": "Fun Fact: He remains the youngest person to become President of the United States. He became President at age 42 when President McKinley was assassinated. Also, Teddy Roosevelt was distant relatives to future President Franklin D. Roosevelt."
+    },
+
+
+    {
+        "name": "The New Deal",
+        "descOne": "The New Deal was a series of economic-based programs, public work projects, financial reforms, and regulations enacted by President Franklin D. Roosevelt in the United States between 1933 and 1939. It was formed to bring much needed relief, reform, and recovery from the Great Depression. ",
+        "descTwo": "The program was centered around what historians refer to as the '3 Rs': relief for the unemployed and poor, recovery of the economy back to normal levels, and reform of the financial system to prevent a repeat depression.",
+        "descThree": "The First New Deal (1933–1934) dealt with the pressing banking crises through the Emergency Banking Act and the 1933 Banking Act. The Second New Deal (1935–1936) included the National Labor Relations Act to protect labor organizing, the Works Progress Administration (WPA) relief program (which made the federal government by far the largest employer in the nation), the Social Security Act, and new programs to aid tenant farmers and migrant workers. One of the biggest items in the New Deal was the Fair Labor Standards Act of 1938, which set maximum hours and minimum wages for most categories of workers.",
+        "descFour": "Fun Fact: The “First 100 Days” of FDR’s presidency consisted of large amounts of changes, lawmaking, and new programs being introduced. He met with Congress everyday for 100 days. People now judge Presidents by what they accomplish in a 100 days, paying homage to FDR’s remarkable 100 days and all that he accomplished."
     }
+
 
     
 ]
