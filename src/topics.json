@@ -142,6 +142,24 @@
         "descTwo": "Construction of the Burj Khalifa began in 2004, with the exterior completed five years later in 2009. Burj Khalifa was designed by Adrian Smith, of Skidmore, Owings & Merrill, whose firm also designed the Willis Tower and One World Trade Center.",
         "descThree": "The Burj Khalifa has been home to many records: Tallest existing structure: 829.8 m (2,722 ft), tallest freestanding structure: 829.8 m (2,722 ft), tallest skyscraper (to top of spire): 828 m (2,717 ft), building with most floors: 163, world's longest elevator travel distance: 504 m (1,654 ft), world's tallest structure that includes residential space, world's highest nightclub: 144th floor, world's highest restaurant (At.mosphere): 122nd floor at 442 m (1,450 ft), and world's highest New Year display of fireworks.",
         "descFour": "Interesting Fact: At a certain point in the architectural and engineering process, the original Emaar developers experienced financial problems, and required more money and economic funding. Sheikh Khalifa, the ruler of the United Arab Emirates, granted monetary aid and funding, hence resulting in the changing of the name to 'Burj Khalifa'."
+    },
+
+
+    {
+        "name": "Sahara Desert",
+        "descOne": "The Sahara (‘the Greatest Desert’) is a desert located in Africa. It is the largest hot desert in the world, and the third largest desert overall after Antarctica and the Arctic. Its area of 9,200,000 square kilometers (3,600,000 sq mi) is comparable to the area of China or the United States.",
+        "descTwo": "For several hundred thousand years, the Sahara has alternated between desert and savanna grassland in a 20,000 year cycle. This is caused by the precession of the Earth's axis as it rotates around the Sun, which changes the location of the North African Monsoon. The area is next expected to become green in about 15,000 years (17,000 CE).", 
+        "descThree": "The Sahara is mainly rocky hamada (stone plateaus); ergs (sand seas – large. areas covered with sand dunes) form only a minor part, but many of the sand dunes are over 590 ft high Wind or rare rainfall shape the desert features: sand dunes, dune fields, sand seas, stone plateaus, gravel plains, dry valleys, dry lakes, and salt flats.",
+        "descFour": "Cool Fact: The Sahara covers large parts of Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Western Sahara, Sudan and Tunisia. It covers 3.5 million square miles, which amounts to 31% of Africa."
+    },
+
+
+    {
+        "name": "The Silk Road",
+        "descOne": "The Silk Road primarily refers to the land routes connecting East Asia and Southeast Asia with South Asia, Persia, the Arabian Peninsula, East Africa and Southern Europe.The Silk Road was a network of trade routes which was central to the economic, cultural, political, and religious interactions between these regions from the 2nd century BCE to the 18th century.",
+        "descTwo": "The Silk Road derives its name from the lucrative trade in silk carried out along its length, beginning in the Han dynasty in China (207 BCE–220 CE). It was important in that it played a significant role in the development of the civilizations of China, Korea, Japan, the Indian subcontinent, Iran, Europe, the Horn of Africa and Arabia by opening long-distance political and economic relations between the civilizations.",
+        "descThree": "The southern stretches of the Silk Road, from Khotan (Xinjiang) to Eastern China, were first used for jade and not silk, as long as 5000 BCE, and is still in use for this purpose. It has been used throughout centuries by different empires and regions, and has played a prominent role in their development.",
+        "descFour": "The dominant Mongol expansion throughout the Asian continent from around 1207 to 1360 helped bring political stability and re-established the Silk Road. In addition, it also  brought an end to the dominance of the Islamic Caliphate over world trade."
     }
 
 
