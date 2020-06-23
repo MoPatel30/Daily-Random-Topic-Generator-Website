@@ -160,6 +160,26 @@
         "descTwo": "The Silk Road derives its name from the lucrative trade in silk carried out along its length, beginning in the Han dynasty in China (207 BCE–220 CE). It was important in that it played a significant role in the development of the civilizations of China, Korea, Japan, the Indian subcontinent, Iran, Europe, the Horn of Africa and Arabia by opening long-distance political and economic relations between the civilizations.",
         "descThree": "The southern stretches of the Silk Road, from Khotan (Xinjiang) to Eastern China, were first used for jade and not silk, as long as 5000 BCE, and is still in use for this purpose. It has been used throughout centuries by different empires and regions, and has played a prominent role in their development.",
         "descFour": "The dominant Mongol expansion throughout the Asian continent from around 1207 to 1360 helped bring political stability and re-established the Silk Road. In addition, it also  brought an end to the dominance of the Islamic Caliphate over world trade."
+    },
+    
+
+    {
+        "name": "Twitch",
+        "descOne": "Twitch, previously known as justin.tv, was introduced in June 2011, and was created by Justin Kan and Emmett Shear. It is a video live streaming service operated by Twitch Interactive, a subsidiary of Amazon. The site primarily focuses on video game live streaming, including broadcasts of esports competitions, in addition to music broadcasts, creative content, and more recently, 'in real life' streams.",
+        "descTwo": "On August 5, 2014, the original Justin.tv site suddenly ceased operations, citing a need to focus resources entirely on Twitch. Justin.tv was shut down in August 2014. Later that month, the service was acquired by Amazon for 970 million USD. Sources reported that the rumoured Google deal had fallen through and allowed Amazon to make the bid, with Forbes reporting that Google had backed out of the deal due to potential antitrust concerns surrounding it and its existing ownership of YouTube.",
+        "descThree": "The typical viewer is male and aged between 18 and 34 years of age, although the site has also made attempts at pursuing other demographics, including women. The demographic is certainly growing as more people are beginning to stream content on twitch. In July 2011, Twitch launched its Partner Program which allowed for streamers to monetize their content and allow viewers to subscribe monthly to their favorite streamers. This played a huge role in developing the streaming community and brought a lot of attention to these streaming platforms.",
+        "descFour": "Interesting Fact: As of September 20, 2018, the Twitch website is blocked and the app is blocked from the Apple App Store in China."
+
+    },
+
+
+    {
+        "name": "Socrates",
+        "descOne": "Socrates ( 470 – 399 BC) was a Greek philosopher from Athens who is credited as one of the founders of Western philosophy, and as being the first moral philosopher of the Western ethical tradition of thought. Socrates played a major role in the upbringing of Plato.",
+        "descTwo": "As Socrates did not write down any of his teachings, secondary sources provide the only information on his life and thought. Plato and Xenophon's dialogues provide the main source of information on Socrates's life and thought. The statement ‘I know that I know nothing’ is often attributed to Socrates, based on a statement in Plato's Apology.",
+        "descThree": "Relevant sources describe Socrates' character very minimally. All that can be inferred is that he was ugly (at least as an older man), and had a brilliant intellect. He wore tattered clothes and went barefoot. He lived entirely within ancient Athens (at least from his late 30s, and other than when serving on military campaigns in Potidaea, Delium, etc.), he made no writings (at least not about philosophy) and he was executed by being made to drink hemlock.",
+        "descFour": "Cool Fact: Socrates fulfilled the role of hoplite (citizen-soldiers of Ancient Greek city-states who were primarily armed with spears and shields), participating in the Peloponnesian War—a conflict which stretched intermittently over a period spanning 431 to 404 BC."
+
     }
 
 
