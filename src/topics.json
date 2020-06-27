@@ -180,8 +180,30 @@
         "descThree": "Relevant sources describe Socrates' character very minimally. All that can be inferred is that he was ugly (at least as an older man), and had a brilliant intellect. He wore tattered clothes and went barefoot. He lived entirely within ancient Athens (at least from his late 30s, and other than when serving on military campaigns in Potidaea, Delium, etc.), he made no writings (at least not about philosophy) and he was executed by being made to drink hemlock.",
         "descFour": "Cool Fact: Socrates fulfilled the role of hoplite (citizen-soldiers of Ancient Greek city-states who were primarily armed with spears and shields), participating in the Peloponnesian War—a conflict which stretched intermittently over a period spanning 431 to 404 BC."
 
+    },
+
+
+    {
+        "name": "Amazon (Company)",
+        "descOne" : "Amazon.com, Inc. is an American multinational technology company based in Seattle that focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is considered one of the Big Four technology companies, along with Google, Apple, and Microsoft.",
+        "descTwo" : "Amazon was founded by Jeff Bezos in Bellevue, Washington, on July 5, 1994. The company started as an online marketplace for books but expanded to sell electronics, software, video games, apparel, furniture, food, toys, and jewelry. In 2002, the corporation started Amazon Web Services (AWS), which provided data on Web site popularity, Internet traffic patterns and other statistics for marketers and developers. Now they are at the forefront of cloud computing. In 2015, Amazon surpassed Walmart as the most valuable retailer in the United States by market capitalization.",
+        "descThree" : "Amazon also plays a huge role in the streaming, music, and video industry by distributing downloads and streaming of video, music, and audiobooks through its Prime Video, Amazon Music, Twitch, and Audible subsidiaries. Twitch has been a growing part of Amazon, and users that link their Amazon Prime Account get free Twitch Prime, which has played a big role in the growth of both departments. ",
+        "descFour" : "Cool Fact: In 2017, Amazon acquired Whole Foods Market for US$13.4 billion, substantially increasing Amazon's footprint as a physical retailer. Later, in 2018, Bezos announced that its two-day delivery service, Amazon Prime, had surpassed 100 million subscribers worldwide."
+
+    },
+
+
+    {
+        "name": "Microsoft (Company)",
+        "descOne" : "Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services. Its best known software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers. Its notable hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers.",
+        "descTwo" : "Microsoft was founded by Bill Gates and Paul Allen on April 4, 1975, to develop and sell BASIC interpreters for the Altair 8800. The company blew up when it began to dominate in the personal computer operating systems industry, especially with Microsoft Windows. ",
+        "descThree" : "In April 2019, Microsoft reached the trillion-dollar market cap, becoming the third U.S. public company to be valued at over $1 trillion after Apple and Amazon respectively. Their largest was the acquisition of LinkedIn for $26.2 billion in December 2016. They are also known for their acquisition of Skype Technologies for $8.5 billion in May 2011. However, Skype never panned out and reached its full potential.",
+        "descFour" : "Interesting Fact: Microsoft’s 1986 initial public offering (IPO), and subsequent rise in its share price, created three billionaires and an estimated 12,000 millionaires among Microsoft employees!"
+
     }
+
 
 
     
 ]
+
