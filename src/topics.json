@@ -200,6 +200,26 @@
         "descThree" : "In April 2019, Microsoft reached the trillion-dollar market cap, becoming the third U.S. public company to be valued at over $1 trillion after Apple and Amazon respectively. Their largest was the acquisition of LinkedIn for $26.2 billion in December 2016. They are also known for their acquisition of Skype Technologies for $8.5 billion in May 2011. However, Skype never panned out and reached its full potential.",
         "descFour" : "Interesting Fact: Microsoft’s 1986 initial public offering (IPO), and subsequent rise in its share price, created three billionaires and an estimated 12,000 millionaires among Microsoft employees!"
 
+    },
+
+
+    {
+        "name": "Apple Inc.",
+        "descOne": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Tech technology companies, alongside Amazon, Google, Microsoft and Facebook.",
+        "descTwo": "Apple has a wide range of hardware products including the iPhone smartphone, the iPad tablet computer, the Mac personal computer, the iPod portable media player, the Apple Watch smartwatch, the Apple TV digital media player, the AirPods wireless earbuds and the HomePod smart speaker. Apple's software includes macOS, iOS, iPadOS, watchOS, and tvOS operating systems. It also includes the Safari web browser and the Shazam music identifier. ",
+        "descThree": "Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell Wozniak's Apple I personal computer. Although Wayne sold his share back within 12 days. After a few more releases, Apple went public in 1980 and found instant financial success. The original Macintosh from 1984, Apple’s phenomenal marketing, and an assortment of very successful products arriving in the future distinguished Apple from the rest of the tech companies, ultimately getting it to the level it is now.",
+        "descFour": "The company employs 137,000 full-time employees and maintains 510 retail stores in 25 countries as of 2020.It operates the iTunes Store, which is the world's largest music retailer. As of January 2020, more than 1.5 billion Apple products are actively in use worldwide. The company also has a high level of brand loyalty and is ranked as the world's most valuable brand. "
+
+    },
+
+
+    {
+        "name": "YouTube",
+        "descOne": "YouTube is an American online video-sharing platform headquartered in San Bruno, California. Three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—created the service in February 2005. Google bought the site in November 2006 for 1.65 billion USD. YouTube now operates as one of Google's subsidiaries.",
+        "descTwo": "YouTube began as a venture capital–funded technology startup, primarily from an $11.5 million investment by Sequoia Capital and an $8 million investment from Artis Capital Management between November 2005 and April 2006. Immense amount of growth shortly followed as users began to turn to YouTube more and more. The first video to reach one million views was a Nike advertisement featuring Ronaldinho in November 2005.",
+        "descThree": "As of May 2019, more than 500 hours of video content are uploaded to YouTube every minute.[7] Based on reported quarterly advertising revenue, YouTube is estimated to have US$15 billion in annual revenues. As of August 2018, the website is ranked as the second-most popular site in the world, according to Alexa Internet, just behind Google.",
+        "descFour": "Cool Fact: Karim said the inspiration for YouTube first came from Janet Jackson's role in the 2004 Super Bowl incident when her breast was exposed during her performance, and later from the 2004 Indian Ocean tsunami. Karim could not easily find video clips of either event online, which led to the idea of a video sharing site."
+
     }
 
 
