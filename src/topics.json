@@ -220,6 +220,26 @@
         "descThree": "As of May 2019, more than 500 hours of video content are uploaded to YouTube every minute.[7] Based on reported quarterly advertising revenue, YouTube is estimated to have US$15 billion in annual revenues. As of August 2018, the website is ranked as the second-most popular site in the world, according to Alexa Internet, just behind Google.",
         "descFour": "Cool Fact: Karim said the inspiration for YouTube first came from Janet Jackson's role in the 2004 Super Bowl incident when her breast was exposed during her performance, and later from the 2004 Indian Ocean tsunami. Karim could not easily find video clips of either event online, which led to the idea of a video sharing site."
 
+    },
+
+
+    {
+        "name": "Sigmund Freud",
+        "descOne": "Sigmund Freud (May 6, 1856 – September 23, 1939) was an Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst. Freud lived and worked in Vienna, having set up his clinical practice there in 1886. In 1938, Freud left Austria to escape Nazi persecution. He died in exile in the United Kingdom in 1939.",
+        "descTwo": "In founding psychoanalysis, Freud developed therapeutic techniques such as the use of free association and discovered transference, establishing its central role in the analytic process. Freud's redefinition of sexuality to include its infantile forms led him to formulate the Oedipus complex as the central tenet of psychoanalytical theory. ",
+        "descThree": "Freud made remarkable contributions to dreaming. His analysis of dreams as wish-fulfillments aided him in the clinical analysis of symptom formation and the underlying mechanisms of repression. Freud was able to enhance his theory of the unconscious and went on to develop a model of psychic structure consisting of the id, ego and super-ego.",
+        "descFour": "Cool Fact: In 1877 Freud moved to Ernst Brücke's physiology laboratory and spent six years comparing the brains of humans and other vertebrates with those of frogs and invertebrates such as crayfish and lampreys. His research work on the biology of nervous tissue proved seminal for the subsequent discovery of the neuron in the 1890s!"
+
+    },
+
+
+    {
+        "name": "Nelson Mendela",
+        "descOne": "Nelson Rolihlahla Mandela (July 18, 1918 – December 5, 2013) was a South African anti-apartheid revolutionary, political leader and philanthropist who served as President of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election.",
+        "descTwo": "Influenced by Marxism, he secretly joined the banned South African Communist Party (SACP). Although initially committed to nonviolent protest, in association with the SACP he co-founded the militant Umkhonto we Sizwe in 1961 and led a sabotage campaign against the government. He was arrested in 1962 and was sentenced to life in prison for conspiring to overthrow the state following the Rivonia Trial.",
+        "descThree": "Mandela served 27 years in prison, split between Robben Island, Pollsmoor Prison and Victor Verster Prison. Amid growing domestic and international pressure, and with fears of a racial civil war, President F. W. de Klerk released him in 1990. Mandela and de Klerk led efforts to negotiate an end to apartheid, which resulted in the 1994 multiracial general election in which Mandela led the ANC to victory and became president. ",
+        "descFour": "Interesting Fact: Widely regarded as an icon of democracy and social justice, Mendela received more than 250 honours, including the Nobel Peace Prize. He is held in deep respect within South Africa, where he is often referred to by his Xhosa clan name, Madiba, and described as the 'Father of the Nation'."
+
     }
 
 
