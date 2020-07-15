@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /*background-color: #E41235;*/
-  background-image: url(https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png);
+  background-image: url(backgrounds/aqua.png);
   background-size: 100% 265%;
   
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@ code {
 
 @media only screen and (max-width: 414px) {
   body{
-    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png);
+    background-image: url(backgrounds/aqua.png);
     background-size: 100% 100%;
     background-repeat: repeat;
 
@@ -58,10 +58,23 @@ code {
 
 @media only screen and (max-width: 768px) and (min-width: 700px) {
   body{
-    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/aqua-d9b59c89.png);
+    background-image: url(backgrounds/aqua.png);
     background-size: 170% 100%;
     background-repeat: repeat;
 
   }
 
+}
+
+
+
+
+@media only screen and (max-width: 1050px) and (min-width: 1000px) {
+  body{
+    background-image: url(backgrounds/aqua.png);
+    background-size: 200% 100%;
+    background-repeat: repeat;
+
+  }
+  
 }

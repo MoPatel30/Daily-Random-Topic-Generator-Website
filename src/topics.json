@@ -260,6 +260,36 @@
         "descThree": "While on campaign between 170 and 180, Marcus wrote his Meditations in Greek as a source for his own guidance and self-improvement. He had a logical mind and his notes were representative of Stoic philosophy and spirituality. Meditations is still revered as a literary monument to a government of service and duty. It has been considered by many commentators to be one of the greatest works of philosophy.",
         "descFour": "Fun Fact: Marcus’s book was a favourite of Christina of Sweden, Frederick the Great, John Stuart Mill, Matthew Arnold, and Goethe, and is admired by modern figures such as Wen Jiabao and Bill Clinton."
 
+    },
+
+
+    {
+        "name": "Tesla (Car Company)",
+        "descOne": "Tesla, Inc. (formerly Tesla Motors, Inc.) is an American electric vehicle and clean energy company based in Palo Alto, California. The company specializes in electric vehicle manufacturing, battery energy storage from home to grid scale and, through its acquisition of SolarCity, solar panel and solar roof tile manufacturing.",
+        "dsecTwo": "Founded in July 2003 by engineers Martin Eberhard and Marc Tarpenning as Tesla Motors, the company’s name is a tribute to inventor and electrical engineer Nikola Tesla. The next three employees were Ian Wright, Elon Musk, and J. B. Straubel, all of whom are named as co-founders of the company. Musk, who formerly served as chairman and is the current CEO, said that he envisioned Tesla Motors as a technology company and independent automaker, aimed at eventually offering electric cars at prices affordable to the average consumer.",
+        "descThree": "Tesla has never had a profitable year; however, it has had several individually profitable quarters, most recently the quarters ending September 2018, December 2018, September 2019, December 2019, and March 2020. On July 1, 2020, Tesla reached a market capitalization of US$206 billion, surpassing Toyota to become the world's most valuable automaker by market capitalization.",
+        "descFour": "Fun Fact: In 2020, the company surpassed the 1 million mark of electric cars produced. The Model 3 ranks as the world's all-time best-selling plug-in electric car, with more than 500,000 delivered."
+
+    },
+
+    
+    {
+        "name": "Ottoman Empire",
+        "descOne": "The Ottoman Empire was a state and caliphate that controlled much of Southeastern Europe, Western Asia, and Northern Africa between the 14th and early 20th centuries.The Ottomans ended the Byzantine Empire with the 1453 conquest of Constantinople by Mehmed the Conqueror.",
+        "dsecTwo": "In the early 20th century, the empire allied with Germany, hoping to escape from the diplomatic isolation which had contributed to its recent territorial losses, and thus joined World War I on the side of the Central Powers. While the Empire was able to largely hold its own during the conflict, it was struggling with internal dissent, especially with the Arab Revolt in its Arabian holdings. During this time, genocide was committed by the Ottoman government against the Armenians, Assyrians, and Greeks.",
+        "descThree": "The Empire's defeat and the occupation of part of its territory by the Allied Powers in the aftermath of World War I resulted in its partitioning and the loss of its Middle Eastern territories, which were divided between the United Kingdom and France.",
+        "descFour": "Cool Fact: With Constantinople (modern day Istanbul) as its capital and control of lands around the Mediterranean Basin, the Ottoman Empire was at the centre of interactions between the Eastern and Western worlds for SIX centuries!"
+
+    },
+
+    
+    {
+        "name": "Byzantine Empire",
+        "descOne": "The Byzantine Empire, also referred to as the Eastern Roman Empire, or Byzantium, was the continuation of the Roman Empire in its eastern provinces during Late Antiquity and the Middle Ages, when its capital city was Constantinople (modern Istanbul, formerly Byzantium). It survived the fragmentation and fall of the Western Roman Empire in the 5th century AD and continued to exist for an additional thousand years until it fell to the Ottoman Empire in 1453. During most of its existence, the empire was the most powerful economic, cultural, and military force in Europe.",
+        "dsecTwo": "Under Constantine, Christianity did not become the exclusive religion of the state but enjoyed imperial preference since he supported it with generous privileges. Throughout the Byzantine Empire, Christianity was able to spread immensely across connecting regions. ",
+        "descThree": "An early instance of the partition of the Empire into East and West occurred in 293 when Emperor Diocletian created a new administrative system (the tetrarchy), to guarantee security in all endangered regions of his Empire. He associated himself with a co-emperor (Augustus), and each co-emperor then adopted a young colleague given the title of Caesar, to share in their rule and eventually to succeed the senior partner. Each tetrarch was in charge of a part of the Empire.",
+        "descFour": "Interesting Fact: Although we think of Constantine I the Great (306-337) as the first ‘Byzantine’ emperor, he actually spent most of his reign as Emperor of the Western Roman Empire."
+
     }
 
 
