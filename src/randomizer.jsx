@@ -157,7 +157,7 @@ export class Randomizer extends React.Component{
         return(
             <div>
                 <div id = "topic-name">
-                    <p id = "topic-current-name"> <em>Topic of the Day: <span class = "goldenrod"><u>{this.state.topic}</u></span></em></p>
+                    <p id = "topic-current-name"> <em>Topic of the Day: <span class = "topicColor"><u>{this.state.topic}</u></span></em></p>
                
                 </div>
 
