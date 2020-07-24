@@ -102,7 +102,7 @@
 
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 375px) {
   #topic-name{
     color: antiquewhite;
     font-size: 24px;
@@ -113,7 +113,7 @@
   #warning{
     font-size: 10px;
     position: absolute;
-    left: -295px;
+    left: -293px;
     top: 00px;
     width: 250px;
     
@@ -139,6 +139,57 @@
     position: relative;
     top: 100px;
     left: 60px;
+    width: 250px;
+    
+  }
+  #date-box{
+    margin-bottom: 75px;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width:400px ) and (max-width: 414px) {
+  #topic-name{
+    color: antiquewhite;
+    font-size: 24px;
+    text-align: left; 
+    font-weight: 500;
+  }
+
+  #warning{
+    font-size: 10px;
+    position: absolute;
+    left: -284px;
+    top: 00px;
+    width: 250px;
+    
+  }
+
+  #title{
+    font-family: "Open Sans Condensed";
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px solid antiquewhite;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+  }
+
+  #date{
+    font-family: "Open Sans Condensed";
+    font-size: 24px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 500;
+    position: relative;
+    top: 100px;
+    left: 75px;
     width: 250px;
     
   }

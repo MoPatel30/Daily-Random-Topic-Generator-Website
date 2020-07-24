@@ -276,7 +276,7 @@
     {
         "name": "Ottoman Empire",
         "descOne": "The Ottoman Empire was a state and caliphate that controlled much of Southeastern Europe, Western Asia, and Northern Africa between the 14th and early 20th centuries.The Ottomans ended the Byzantine Empire with the 1453 conquest of Constantinople by Mehmed the Conqueror.",
-        "dsecTwo": "In the early 20th century, the empire allied with Germany, hoping to escape from the diplomatic isolation which had contributed to its recent territorial losses, and thus joined World War I on the side of the Central Powers. While the Empire was able to largely hold its own during the conflict, it was struggling with internal dissent, especially with the Arab Revolt in its Arabian holdings. During this time, genocide was committed by the Ottoman government against the Armenians, Assyrians, and Greeks.",
+        "descTwo": "In the early 20th century, the empire allied with Germany, hoping to escape from the diplomatic isolation which had contributed to its recent territorial losses, and thus joined World War I on the side of the Central Powers. While the Empire was able to largely hold its own during the conflict, it was struggling with internal dissent, especially with the Arab Revolt in its Arabian holdings. During this time, genocide was committed by the Ottoman government against the Armenians, Assyrians, and Greeks.",
         "descThree": "The Empire's defeat and the occupation of part of its territory by the Allied Powers in the aftermath of World War I resulted in its partitioning and the loss of its Middle Eastern territories, which were divided between the United Kingdom and France.",
         "descFour": "Cool Fact: With Constantinople (modern day Istanbul) as its capital and control of lands around the Mediterranean Basin, the Ottoman Empire was at the centre of interactions between the Eastern and Western worlds for SIX centuries!"
 
@@ -286,11 +286,32 @@
     {
         "name": "Byzantine Empire",
         "descOne": "The Byzantine Empire, also referred to as the Eastern Roman Empire, or Byzantium, was the continuation of the Roman Empire in its eastern provinces during Late Antiquity and the Middle Ages, when its capital city was Constantinople (modern Istanbul, formerly Byzantium). It survived the fragmentation and fall of the Western Roman Empire in the 5th century AD and continued to exist for an additional thousand years until it fell to the Ottoman Empire in 1453. During most of its existence, the empire was the most powerful economic, cultural, and military force in Europe.",
-        "dsecTwo": "Under Constantine, Christianity did not become the exclusive religion of the state but enjoyed imperial preference since he supported it with generous privileges. Throughout the Byzantine Empire, Christianity was able to spread immensely across connecting regions. ",
+        "descTwo": "Under Constantine, Christianity did not become the exclusive religion of the state but enjoyed imperial preference since he supported it with generous privileges. Throughout the Byzantine Empire, Christianity was able to spread immensely across connecting regions. ",
         "descThree": "An early instance of the partition of the Empire into East and West occurred in 293 when Emperor Diocletian created a new administrative system (the tetrarchy), to guarantee security in all endangered regions of his Empire. He associated himself with a co-emperor (Augustus), and each co-emperor then adopted a young colleague given the title of Caesar, to share in their rule and eventually to succeed the senior partner. Each tetrarch was in charge of a part of the Empire.",
         "descFour": "Interesting Fact: Although we think of Constantine I the Great (306-337) as the first ‘Byzantine’ emperor, he actually spent most of his reign as Emperor of the Western Roman Empire."
 
+    },
+
+
+    {
+        "name": "Abraham Lincoln",
+        "descOne": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was an American statesman and lawyer who served as the 16th president of the United States (1861–1865). Lincoln led the nation through its greatest moral, constitutional, and political crisis in the American Civil War. He succeeded in preserving the Union, abolishing slavery, bolstering the federal government, and modernizing the U.S. economy.",
+        "descTwo": "Lincoln was born into poverty in a log cabin and was raised on the frontier primarily in Indiana. He was self-educated and became a lawyer, Whig Party leader, Illinois state legislator, and U.S. Congressman from Illinois. His Gettysburg Address became a historic clarion call for nationalism, republicanism, equal rights, liberty, and democracy.",
+        "descThree": "He suspended habeas corpus, and he averted British intervention by defusing the Trent Affair. He engineered the end to slavery with his Emancipation Proclamation and his order that the Army protect escaped slaves. He also encouraged border states to outlaw slavery, and promoted the Thirteenth Amendment to the United States Constitution, which outlawed slavery across the country.",
+        "descFour": "Interesting Fact:  Lincoln’s marriage had produced four sons, two of whom preceded him in death, with severe emotional impact upon him and Mary. Lincoln is remembered as the United States' martyr hero, and he is consistently ranked as the greatest U.S. president in history."
+
+    },
+
+
+    {
+        "name": "George Washington",
+        "descOne": "George Washington (February 22, 1732 – December 14, 1799) was an American political leader, military general, statesman, and founding father who served as the first president of the United States from 1789 to 1797. Previously, he led Patriot forces to victory in the nation's War for Independence. He presided at the Constitutional Convention of 1787, which established the U.S. Constitution and a federal government. Washington has been called the 'Father of His Country' for his manifold leadership in the formative days of the new nation.",
+        "descTwo": "Washington played a key role in adopting and ratifying the Constitution and was then elected president (twice) by the Electoral College. He implemented a strong, well-financed national government while remaining impartial in a fierce rivalry between cabinet members Thomas Jefferson and Alexander Hamilton.",
+        "descThree": "During the French Revolution, he proclaimed a policy of neutrality while sanctioning the Jay Treaty. He set enduring precedents for the office of president, including the title 'Mr. President', and his Farewell Address is widely regarded as a pre-eminent statement on republicanism.",
+        "descFour": "Interesting Fact: Washington owned slaves, and, in order to preserve national unity, he supported measures passed by Congress to protect slavery. He later became troubled with the institution of slavery and freed his slaves in a 1799 will. "
+
     }
+
 
 
 
