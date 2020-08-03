@@ -310,6 +310,26 @@
         "descThree": "During the French Revolution, he proclaimed a policy of neutrality while sanctioning the Jay Treaty. He set enduring precedents for the office of president, including the title 'Mr. President', and his Farewell Address is widely regarded as a pre-eminent statement on republicanism.",
         "descFour": "Interesting Fact: Washington owned slaves, and, in order to preserve national unity, he supported measures passed by Congress to protect slavery. He later became troubled with the institution of slavery and freed his slaves in a 1799 will. "
 
+    },
+
+
+    {
+        "name": "Y Combinator (YC)",
+        "descOne": "Y Combinator (YC) is an American seed money startup accelerator launched in March 2005. It has been used to launch over 2,000 companies,including Stripe, Airbnb, Cruise Automation, DoorDash, Coinbase, Instacart, Dropbox and Twitch. The combined valuation of the top YC companies was over US$155 billion as of October 2019. The company's accelerator program is held in Mountain View, California.",
+        "descTwo": "Y Combinator was founded in 2005 by Paul Graham, Jessica Livingston, Trevor Blackwell, and Robert Tappan Morris. One of the programs was held in Cambridge, Massachusetts. As Y Combinator grew to 40 investments per year, running two programs became too much. In January 2009, Y Combinator announced that the Cambridge program would be closed and all future programs would take place in Silicon Valley.",
+        "descThree": "In 2009, Sequoia Capital led the $2 million investment round into an entity of Y Combinator to enable them to invest in approximately 60 companies a year. The following year, Sequoia led a $8.25 million funding round for Y Combinator to further increase the number of startups the company could fund.",
+        "descFour": "Cool Fact: In 2018, Y Combinator announced a new batch of startup school. After a software glitch, all 15,000 startups that applied to the program were accepted, only to learn a few hours later that they had been rejected. But the ensuing outcry led Y Combinator to change course again and decided over an official blog to finally accept all those 15000 companies. Now, every company is accepted to join YC Startup School without any restrictions."
+
+    },
+
+
+    {
+        "name": "PC Gaming",
+        "descOne": "A PC game, also known as a computer game or personal computer game, is a type of video game played on a personal computer rather than a video game console or arcade machine. Its defining characteristics include: more diverse and user-determined gaming hardware and software; and generally greater capacity in input, processing, video and audio output.",
+        "descTwo": "Modern computer games place great demand on the computer's hardware, often requiring a fast central processing unit (CPU) to function properly. CPU manufacturers historically relied mainly on increasing clock rates to improve the performance of their processors, but had begun to move steadily towards multi-core CPUs by 2005.",
+        "descThree": "Similarly, 3D games often rely on a powerful graphics processing unit (GPU), which accelerates the process of drawing complex scenes in real time. GPUs are an integrated part of the computer's motherboard.  It is also possible to use multiple GPUs in a single computer in order to boost performance.",
+        "descFour": "Interesting Fact: In 2018, the global PC games market was valued at about $27.7 billion. This number is on the rise greatly as games like Fortnite are bringing lots of attention to the world of PC gaming and what it offers for the user."
+
     }
 
 
