@@ -330,8 +330,25 @@
         "descThree": "Similarly, 3D games often rely on a powerful graphics processing unit (GPU), which accelerates the process of drawing complex scenes in real time. GPUs are an integrated part of the computer's motherboard.  It is also possible to use multiple GPUs in a single computer in order to boost performance.",
         "descFour": "Interesting Fact: In 2018, the global PC games market was valued at about $27.7 billion. This number is on the rise greatly as games like Fortnite are bringing lots of attention to the world of PC gaming and what it offers for the user."
 
-    }
+    },
 
+    {
+        "name": "Mansa Musa",
+        "descOne": "Musa I (1280 – 1337), or Mansa Musa, was the tenth Mansa (which translates to 'emperor') of the Mali Empire, an Islamic West African state. He has been described as the wealthiest individual of the Middle Ages. He helped his empire reach tremendous growth by encouraging the arts, literature and architecture.",
+        "descTwo": "Musa conquered 24 cities, along with their surrounding districts. During Musa's reign, Mali may have been the largest producer of gold in the world, and Musa has been considered one of the wealthiest historical figures. However, modern commentators such as Time magazine have concluded that there is no accurate way to quantify Musa's wealth.",
+        "descThree": "Musa embarked on a large building program, raising mosques and madrasas in Timbuktu and Gao. Most notably, the ancient center of learning Sankore Madrasah (or University of Sankore) was constructed during his reign. During this period, there was an advanced level of urban living in the major centers of Mali. Sergio Domian, an Italian scholar of art and architecture, wrote of this period: ‘Thus was laid the foundation of an urban civilization. At the height of its power, Mali had at least 400 cities, and the interior of the Niger Delta was very densely populated.’",
+        "descFour": "Fun Fact: Musa’s wealth was so bizarre, historians can’t attribute an accurate number to it. Most  of his wealth came from the immense amount of gold he had and gathered. So much so, that he would trade gold for silk!"
+
+    },
+
+    {
+        "name": "Albert Einstein",
+        "descOne": "Albert Einstein (March 4, 1879 – April 18, 1955) was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science. He received the 1921 Nobel Prize in Physics 'for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect', a pivotal step in the development of quantum theory.",
+        "descTwo": "On the eve of World War II, he endorsed a letter to President Franklin D. Roosevelt alerting FDR to the potential development of 'extremely powerful bombs of a new type' and recommending that the US begin similar research. This eventually led to the Manhattan Project. Einstein supported the Allies, but he generally denounced the idea of using nuclear fission as a weapon.",
+        "descThree": "Einstein always excelled at math and physics from a young age, reaching a mathematical level years ahead of his peers. The twelve-year-old Einstein taught himself algebra and Euclidean geometry over a single summer. Einstein started teaching himself calculus at 12, and as a 14-year-old he says he had 'mastered integral and differential calculus'. He published more than 300 scientific papers and more than 150 non-scientific works. His intellectual achievements and originality have made the word 'Einstein' synonymous with genius'.",
+        "descFour": "Fun Fact: He is best known to the general public for his mass–energy equivalence formula E = mc2, which has been dubbed 'the world's most famous equation'."
+
+    }
 
 
 
