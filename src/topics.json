@@ -348,6 +348,24 @@
         "descThree": "Einstein always excelled at math and physics from a young age, reaching a mathematical level years ahead of his peers. The twelve-year-old Einstein taught himself algebra and Euclidean geometry over a single summer. Einstein started teaching himself calculus at 12, and as a 14-year-old he says he had 'mastered integral and differential calculus'. He published more than 300 scientific papers and more than 150 non-scientific works. His intellectual achievements and originality have made the word 'Einstein' synonymous with genius'.",
         "descFour": "Fun Fact: He is best known to the general public for his mass–energy equivalence formula E = mc2, which has been dubbed 'the world's most famous equation'."
 
+    },
+
+    {
+        "name": "Christopher Columbus",
+        "descOne": "Christopher Columbus (October 31, 1451 – May 20, 1506) was an Italian explorer and navigator who completed four voyages across the Atlantic Ocean, opening the way for European exploration and colonization of the Americas. His expeditions, sponsored by the Catholic Monarchs of Spain, were the first European contact with the Caribbean, Central America, and South America.",
+        "descTwo":"Though largely self-educated, Columbus was widely read in geography, astronomy, and history. He formulated a plan to seek a western sea passage to the East Indies, hoping to profit from the lucrative spice trade. Following persistent lobbying, Queen Isabella I and King Ferdinand II agreed to sponsor a journey west, in the name of the Crown of Castile. Columbus left Castile in August 1492 with three ships, and after a stopover in the Canary Islands made landfall in the Americas on October 12th (later celebrated as Columbus Day).",
+        "descThree":"The debate over Columbus's legacy continues. He was widely venerated in the centuries after his death, but public perception has fractured in recent decades as scholars give greater attention to the harm committed under his governance, particularly the near extermination of Hispañola's indigenous Taíno population from mistreatment and European diseases.",
+        "descFour": "Interesting Fact: Columbus died believing he failed achieving what he set out to accomplish, but he had laid the seeds of discovery and connected the Old World with the New World, which unequivocally altered the course of history."
+
+    },
+
+    {
+        "name": "Ferdinand Magellan",
+        "descOne": "Ferdinand Magellan (c. 1480 – April 27, 1521) was a Portuguese explorer who organised the Spanish expedition to the East Indies from 1519 to 1522, resulting in the first circumnavigation of the Earth, which was completed by Juan Sebastián Elcano.",
+        "descTwo":"After King Manuel I of Portugal refused to support his plan to reach India by a new route, by sailing around the southern end of the South American continent, he was eventually selected by King Charles I of Spain to search for a westward route to the Maluku Islands (the 'Spice Islands'). The expedition reached the Philippine islands, where Magellan was killed during the Battle of Mactan. The expedition later reached the Spice Islands in 1521 and one of the surviving ships eventually returned home via the Indian Ocean, completing the first circuit of the globe.",
+        "descThree": "Magellan had already reached the Malay Archipelago in Southeast Asia on previous voyages traveling east (from 1505 to 1511–1512). By visiting this area again but now travelling west, Magellan achieved a nearly complete personal circumnavigation of the globe for the first time in history. Magellan's fleet consisted of five ships, carrying supplies for two years of travel. The crew consisted of about 270 men. Most were Spanish, but around 40 were Portuguese.",
+        "descFour": "Fun Fact: The Strait(s) of Magellan, named after the great explorer Ferdinand Magellan, is a navigable sea route in southern Chile separating mainland South America to the north and Tierra del Fuego to the south. The strait is considered the most important natural passage between the Atlantic and Pacific oceans."
+         
     }
 
 
