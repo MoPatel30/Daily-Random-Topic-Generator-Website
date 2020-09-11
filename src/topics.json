@@ -366,6 +366,24 @@
         "descThree": "Magellan had already reached the Malay Archipelago in Southeast Asia on previous voyages traveling east (from 1505 to 1511–1512). By visiting this area again but now travelling west, Magellan achieved a nearly complete personal circumnavigation of the globe for the first time in history. Magellan's fleet consisted of five ships, carrying supplies for two years of travel. The crew consisted of about 270 men. Most were Spanish, but around 40 were Portuguese.",
         "descFour": "Fun Fact: The Strait(s) of Magellan, named after the great explorer Ferdinand Magellan, is a navigable sea route in southern Chile separating mainland South America to the north and Tierra del Fuego to the south. The strait is considered the most important natural passage between the Atlantic and Pacific oceans."
          
+    },
+
+    {
+        "name": "Confucius",
+        "descOne": "Confucius (551–479 BC) was a Chinese philosopher and politician of the Spring and Autumn period. The philosophy of Confucius, also known as Confucianism, emphasized personal and governmental morality, correctness of social relationships, justice, kindness, and sincerity. ",
+        "descTwo": "Confucius is traditionally credited with having authored or edited many of the Chinese classic texts including all of the Five Classics, but modern scholars are cautious of attributing specific assertions to Confucius himself. Aphorisms concerning his teachings were compiled in the Analects, but only many years after his death.",
+        "descThree": "Confucius's principles have commonality with Chinese tradition and belief. He championed strong family loyalty, ancestor veneration, and respect of elders by their children and of husbands by their wives, recommending family as a basis for ideal government. He espoused the well-known principle 'Do not do unto others what you do not want done to yourself', the Golden Rule. He is also a traditional deity in Daoism.",
+        "descFour": "Interesting Fact: Confucius is widely considered as one of the most important and influential individuals in human history. His teaching and philosophy greatly impacted people around the world and remain influential today."
+
+    },
+
+    {
+        "name": "Martial Arts",
+        "descOne": "Martial arts are codified systems and traditions of combat practiced for a number of reasons such as self-defense; military and law enforcement applications; competition; physical, mental, and spiritual development; entertainment; and the preservation of a nation's intangible cultural heritage.",
+        "descTwo": "Although the term martial art has become associated with the fighting arts of East Asia, it originally referred to the combat systems of Europe as early as the 1550s. The term is derived from Latin and means 'arts of Mars', the Roman god of war.[2] Some authors have argued that fighting arts or fighting systems would be more appropriate on the basis that many martial arts were never 'martial' in the sense of being used or created by professional warriors.",
+        "descThree": "Many martial arts, especially those from Asia, also teach side disciplines which pertain to medicinal practices. This is particularly prevalent in traditional Asian martial arts which may teach bone-setting, herbalism, and other aspects of traditional medicine. Martial arts can also be linked with religion and spirituality. Numerous systems are reputed to have been founded, disseminated, or practiced by monks or nuns and Health professionals.",
+        "descFour": "Cool Fact: There are two forms of martial arts. Unarmed martial arts can be broadly grouped into those focusing on strikes, those focusing on grappling, and those that cover both fields, often described as hybrid martial arts. The traditional martial arts that cover armed combat often encompass a wide spectrum of melee weapons, including bladed weapons and polearms."
+
     }
 
 
